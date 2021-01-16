@@ -12,15 +12,6 @@ public class LevelMap : MonoBehaviour
         levelMap.Add(newEntry);
     }
 
-    public static void SpawnBossRoom()
-    {
-        BossRoom bossRoom = FindObjectOfType<RoomTemplates>().bossRoom.GetComponent<BossRoom>();
-        DictionaryEntry whereToSpawn = levelMap.FindLast(delegate (DictionaryEntry e)
-        {
-            return bossRoom.possibleSpawningPoint.Contains(e.Key) ;
-        });
-    }
-
     public static GameObject GetLastRoom()
     {
         return (GameObject)levelMap.Last<DictionaryEntry>().Value;

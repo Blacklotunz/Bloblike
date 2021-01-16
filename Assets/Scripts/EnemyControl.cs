@@ -18,6 +18,7 @@ public class EnemyControl : MonoBehaviour
     {
         animator = this.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        target = GameObject.FindGameObjectWithTag("Player");
     }
 
 
@@ -56,7 +57,6 @@ public class EnemyControl : MonoBehaviour
         {
             awake = true;
             target = collision.gameObject;
-
         }
     }
 

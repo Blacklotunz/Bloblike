@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 3737134409166537232}
   - component: {fileID: 1283475767714492502}
   - component: {fileID: 8467276097927508740}
+  - component: {fileID: 5056744361396305004}
+  - component: {fileID: -7530064953980383232}
   m_Layer: 8
   m_Name: Rat King
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1040696883
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -7259813057975052621, guid: e482dc52e616fe0438b440355f0f38b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,8 +100,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   awake: 0
   dead: 0
-  attackCooldown: 0
-  health: 0
+  attackCooldown: 2
+  projectileSpeed: 100
+  health: 10
+  projectiles: {fileID: 97244131697771752, guid: 1b6a30fec20cb6a4b8a6358b2dd824c3, type: 3}
 --- !u!95 &8467276097927508740
 Animator:
   serializedVersion: 3
@@ -119,3 +123,50 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &5056744361396305004
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737134409166537234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
+--- !u!50 &-7530064953980383232
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737134409166537234}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -6,16 +6,15 @@ public class BossRoom : MonoBehaviour
 {
 
     public static bool BossRoomSpawned;
-    public string[] possibleSpawningPoint;
-    bool bossSpawned;
+    public bool bossSpawned;
     public BossSpawner bossSpawner;
-    public Animator[] animators;
+    public Animator[] doorsAnimators;
 
     // Start is called before the first frame update
     void Start()
     {
-        animators = GetComponentsInChildren<Animator>();
-        foreach(Animator animator in animators)
+        doorsAnimators = GetComponentsInChildren<Animator>();
+        foreach(Animator animator in doorsAnimators)
         {
             animator.SetBool("open", true);
         }
@@ -26,15 +25,19 @@ public class BossRoom : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !bossSpawned)
         {
-            foreach (Animator animator in animators)
+            foreach (Animator animator in doorsAnimators)
             {
                 animator.SetBool("open", false );
             }
             bossSpawned = true;
-            bossSpawner.Spawn();
+
+            collision.GetComponent<CameraControl>().CameraShake(3f);
+            Invoke("SpawnBoss",2f);
         }
     }
 
-    
-
+    private void SpawnBoss()
+    {
+        bossSpawner.Spawn();
+    }
 }

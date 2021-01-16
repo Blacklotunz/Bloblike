@@ -55,13 +55,6 @@ public class RoomSpawner : MonoBehaviour
             }
         }
 
-        if(!spawned && templates.roomLeft == 0)
-        {
-            LevelMap.SpawnBossRoom();    
-        }
-
-
-
         if (templates.roomLeft <= 0 && !spawned) {
             //remove unused doors from this room
             Quaternion rotation = GetTileRotation();

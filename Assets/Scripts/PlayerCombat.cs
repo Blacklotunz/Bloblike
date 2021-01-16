@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
     public GameObject[] healthCounters;
     public Transform attackPos;
     public Animator animator;
-    public Vector3 attackPosition;
+    //public Vector3 attackPosition;
     public LayerMask Damageble;
     public int dmg, health;
     public float xRange, yRange, timeBetweenAtk, playerAtkOffset;
@@ -35,8 +35,7 @@ public class PlayerCombat : MonoBehaviour
         
         if (health <= 0 && !dead)
         {
-            dead = true;
-            animator.SetTrigger("dead");
+            Die();
             return;
         }
 
@@ -76,7 +75,7 @@ public class PlayerCombat : MonoBehaviour
         atkCooldown = timeBetweenAtk;
         animator.SetInteger("attackDirection", attackDirection);
         
-        switch (attackDirection)
+       /* switch (attackDirection)
         {
             case 1:
                 attackPosition = new Vector3(transform.position.x + playerAtkOffset, transform.position.y + 0.3f, 1);
@@ -93,7 +92,7 @@ public class PlayerCombat : MonoBehaviour
             default:
                 attackPosition = new Vector3(transform.position.x, transform.position.y, 1);
                 break;
-        }
+        }*/
     }
 
     public void TakeDamage(int dmg)
@@ -101,7 +100,7 @@ public class PlayerCombat : MonoBehaviour
         if (!dead)
         {
             animator.SetTrigger("damage");
-            cameraControl.CameraShake();
+            cameraControl.CameraShake(0f);
             health -= dmg;
 
             for (int i = 0; i < healthCounters.Length; i++)
@@ -116,10 +115,20 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    void Die()
+    {
+        dead = true;
+        animator.SetTrigger("dead");
+        this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+        this.GetComponent<Rigidbody2D>().isKinematic = true;
+        this.GetComponent<Rigidbody2D>().simulated = false;
+        this.GetComponent<Collider2D>().enabled = false;
+        this.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
+    }
 
-    private void OnDrawGizmosSelected()
+/*    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(attackPosition, new Vector3(xRange, yRange, 1));
-    }
+    }*/
 }

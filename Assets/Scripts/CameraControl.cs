@@ -38,9 +38,18 @@ public class CameraControl : MonoBehaviour
         }
     }
 
-    public void CameraShake()
+    public void CameraShake(float seconds)
     {
-        mainCamera.GetComponent<Animator>().SetTrigger("shake");
+        if(seconds <= 0) mainCamera.GetComponent<Animator>().SetTrigger("shake");
+        else
+        {
+            mainCamera.GetComponent<Animator>().SetBool("shake_b", true);
+            Invoke("CameraIdle", seconds);
+        }
+    }
+    private void CameraIdle()
+    {
+        mainCamera.GetComponent<Animator>().SetBool("shake_b", false);
     }
 
 
