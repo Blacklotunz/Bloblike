@@ -17,13 +17,14 @@ public class RoomTemplates : MonoBehaviour
         playerSpawned = false;
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         if(!playerSpawned && roomLeft <= 0)
         {
+            playerSpawned = true;
             GameObject lastRoom = LevelMap.GetLastRoom();
             Instantiate(player, lastRoom.transform.position + new Vector3(3f,2f,0f) , Quaternion.identity);
-            playerSpawned = true;
+            
         }
     }
 }

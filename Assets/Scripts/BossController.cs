@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossController : MonoBehaviour
 {
     Animator animator;
-    public bool awake, dead, hidden;
+    public bool awake, dead, hidden, damageble;
     public float attackCooldown, projectileSpeed, showTime, hideTime;
     public int health;
     public GameObject projectiles, loot;
@@ -24,19 +24,20 @@ public class BossController : MonoBehaviour
     {
         if (!awake || dead) return;
 
-        if(Time.time >= attackTime + attackCooldown)
+        if (Time.time >= attackTime + attackCooldown)
         {
             attackTime = Time.time;
             animator.SetTrigger("shoot");
             //this.Attack(); invoked at the end of the animation
         }
 
-        if(hidden)
+        if (hidden)
         {
             showTimer -= Time.deltaTime;
-            if(showTimer <= 0)
+            if (showTimer <= 0)
             {
-                animator.SetTrigger("show");
+                damageble = false;
+                animator.SetBool("hide", false);
                 hidden = !hidden;
                 showTimer = showTime;
             }
@@ -44,9 +45,9 @@ public class BossController : MonoBehaviour
         else
         {
             hideTimer -= Time.deltaTime;
-            if(hideTimer <= 0)
+            if (hideTimer <= 0)
             {
-                animator.SetTrigger("hide");
+                animator.SetBool("hide", true);
                 hidden = !hidden;
                 hideTimer = hideTime;
             }
@@ -54,14 +55,14 @@ public class BossController : MonoBehaviour
     }
 
     void Attack()
-    {  
-        GameObject projectile = Instantiate(projectiles, this.transform.position, Quaternion.Euler(new Vector3(1f,2f,0f)));
+    {
+        GameObject projectile = Instantiate(projectiles, this.transform.position, Quaternion.Euler(new Vector3(1f, 2f, 0f)));
         projectile.GetComponent<Rigidbody2D>().AddForce((GameObject.FindGameObjectWithTag("Player").transform.position - this.transform.position).normalized * projectileSpeed);
     }
 
     public void TakeDamage(int dmg)
     {
-        if (dead) return;
+        if (dead || !damageble) return;
         health -= dmg;
         if (health <= 0)
         {

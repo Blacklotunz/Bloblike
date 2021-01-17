@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -269,7 +269,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -367,7 +367,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -586,7 +586,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3069727415738734977}
   - component: {fileID: 4459936735201965170}
-  - component: {fileID: 5834183851201985219}
   m_Layer: 0
   m_Name: Tile (1)
   m_TagString: Obstacle
@@ -623,32 +622,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &5834183851201985219
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278621270734341953}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &1384735531898846311
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +632,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2263041401595147955}
   - component: {fileID: 6056436491594093878}
-  - component: {fileID: 8503142497601830800}
   m_Layer: 0
   m_Name: Tile (11)
   m_TagString: Obstacle
@@ -696,32 +668,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &8503142497601830800
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384735531898846311}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &1461636172429311858
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +678,6 @@ GameObject:
   m_Component:
   - component: {fileID: 290459262194162422}
   - component: {fileID: 902902602379796717}
-  - component: {fileID: 2514263464436035733}
   m_Layer: 0
   m_Name: Tile (18)
   m_TagString: Obstacle
@@ -769,32 +714,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &2514263464436035733
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461636172429311858}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &1583237137342430600
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8294945519487451154}
   - component: {fileID: 1503045935425349262}
-  - component: {fileID: 3216735053709976831}
   m_Layer: 0
   m_Name: Tile (4)
   m_TagString: Obstacle
@@ -888,32 +806,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3216735053709976831
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717397062413386796}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &1843069134144533770
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +816,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6535513520599699345}
   - component: {fileID: 7729348969418507732}
-  - component: {fileID: 3723405290283262392}
   m_Layer: 0
   m_Name: Tile (13)
   m_TagString: Obstacle
@@ -961,32 +852,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3723405290283262392
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843069134144533770}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &1935577829123610881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,7 +908,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2261962651756273644}
   - component: {fileID: 5475318020339545918}
-  - component: {fileID: 7195044424187953999}
   m_Layer: 0
   m_Name: Tile (5)
   m_TagString: Obstacle
@@ -1080,32 +944,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &7195044424187953999
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072262651663355499}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &2161816120531058755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,7 +1046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5307510025847569440}
   - component: {fileID: 2995094268199472884}
-  - component: {fileID: 7769478077413766012}
   m_Layer: 0
   m_Name: Tile (6)
   m_TagString: Obstacle
@@ -1245,32 +1082,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &7769478077413766012
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2437019045820363644}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &2528567727299510040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,7 +1230,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7661333704322625402}
   - component: {fileID: 3219185495576657410}
-  - component: {fileID: 7381761024248863965}
   m_Layer: 0
   m_Name: Tile (15)
   m_TagString: Obstacle
@@ -1456,32 +1266,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &7381761024248863965
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802269998381375058}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &2843305874835693053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1322,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7586539595042708865}
   - component: {fileID: 8827161957848241836}
-  - component: {fileID: 525938050594004765}
   m_Layer: 0
   m_Name: Tile (19)
   m_TagString: Obstacle
@@ -1575,32 +1358,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &525938050594004765
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2844271020006441379}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &2857101478299294140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1460,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3875195989664234383}
   - component: {fileID: 1065803355783136526}
-  - component: {fileID: 8034732006310090209}
   m_Layer: 0
   m_Name: Tile (3)
   m_TagString: Obstacle
@@ -1740,32 +1496,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &8034732006310090209
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3120026900450435437}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &3247683964991744834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,7 +1506,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4349852883120420918}
   - component: {fileID: 7584262238982007850}
-  - component: {fileID: 4294093458291885549}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Obstacle
@@ -1813,32 +1542,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &4294093458291885549
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3247683964991744834}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &3448541173930569462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +1644,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3674245609851059846}
   - component: {fileID: 7954891001671037453}
-  - component: {fileID: 3633738420539876974}
   m_Layer: 0
   m_Name: Tile (7)
   m_TagString: Obstacle
@@ -1978,32 +1680,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3633738420539876974
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3697211977728695266}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &3742015927514353575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,7 +1921,6 @@ GameObject:
   m_Component:
   - component: {fileID: 740258160735919495}
   - component: {fileID: 6553712497351908995}
-  - component: {fileID: 4854399969821835494}
   m_Layer: 0
   m_Name: Tile (2)
   m_TagString: Obstacle
@@ -2282,32 +1957,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &4854399969821835494
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155077271225443950}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &4161580914094065945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,7 +2105,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2713927624084271313}
   - component: {fileID: 318361392598408357}
-  - component: {fileID: 1774617283940447464}
   m_Layer: 0
   m_Name: Tile (9)
   m_TagString: Obstacle
@@ -2493,32 +2141,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &1774617283940447464
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4344176186353862220}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &4385548341494449700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,7 +2151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4344478685519766509}
   - component: {fileID: 3606046163155851276}
-  - component: {fileID: 6061232699139401452}
   m_Layer: 0
   m_Name: Tile (17)
   m_TagString: Obstacle
@@ -2566,32 +2187,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &6061232699139401452
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385548341494449700}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &4399112138627310773
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,7 +2243,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7427808061595411069}
   - component: {fileID: 8230612604929488186}
-  - component: {fileID: 3320342627962124700}
   m_Layer: 0
   m_Name: Tile (16)
   m_TagString: Obstacle
@@ -2685,32 +2279,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3320342627962124700
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4473927507675077456}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &4574521426982126803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,7 +2427,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3366717582551067155}
   - component: {fileID: 3028175551436218061}
-  - component: {fileID: 3207254006864598841}
   m_Layer: 0
   m_Name: Tile (8)
   m_TagString: Obstacle
@@ -2896,32 +2463,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3207254006864598841
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5101809182266864824}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &5192724367470750667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,7 +2766,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3323,7 +2864,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3421,7 +2962,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3504,7 +3045,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8, y: 6}
+  m_Size: {x: 9, y: 7}
   m_EdgeRadius: 0
 --- !u!114 &3450566396361242672
 MonoBehaviour:
@@ -3593,7 +3134,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3691,7 +3232,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3789,7 +3330,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3887,7 +3428,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3985,7 +3526,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4083,7 +3624,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4181,7 +3722,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4279,7 +3820,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4442,7 +3983,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4540,7 +4081,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4638,7 +4179,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4736,7 +4277,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4834,7 +4375,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4932,7 +4473,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5030,7 +4571,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5128,7 +4669,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5226,7 +4767,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5324,7 +4865,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5422,7 +4963,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5520,7 +5061,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5618,7 +5159,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5716,7 +5257,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5814,7 +5355,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5912,7 +5453,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6010,7 +5551,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de74f362dcde1db46bfa2cdcc3bcdcd3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.28235295, b: 0.2509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6229,7 +5770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7851266440681563341}
   - component: {fileID: 6046934414677352005}
-  - component: {fileID: 3261178768341096521}
   m_Layer: 0
   m_Name: Tile (14)
   m_TagString: Obstacle
@@ -6266,32 +5806,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &3261178768341096521
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6508446317208582958}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &6742242972017571940
 GameObject:
   m_ObjectHideFlags: 0
@@ -6348,7 +5862,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2660621311188160995}
   - component: {fileID: 8180281566287466966}
-  - component: {fileID: 184562689535290020}
   m_Layer: 0
   m_Name: Tile (12)
   m_TagString: Obstacle
@@ -6385,32 +5898,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &184562689535290020
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6753322065676574622}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &6907635608098743205
 GameObject:
   m_ObjectHideFlags: 0
@@ -6605,7 +6092,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2989300897841827960}
   - component: {fileID: 6559380108080324342}
-  - component: {fileID: 5372962148745260015}
   m_Layer: 0
   m_Name: Tile (10)
   m_TagString: Obstacle
@@ -6642,32 +6128,6 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
---- !u!61 &5372962148745260015
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8680993430348019388}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!1 &8718326906185471468
 GameObject:
   m_ObjectHideFlags: 0

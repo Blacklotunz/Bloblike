@@ -16,6 +16,7 @@ TagManager:
   - Door
   - Weapon
   - Chest
+  - CoinsCounter
   layers:
   - Default
   - TransparentFX

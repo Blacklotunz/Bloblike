@@ -49,3 +49,5 @@ MonoBehaviour:
   - {fileID: 2274574487474019619, guid: 54259ba34aeaa6c4ab60d8553b2d509d, type: 3}
   LevelWalls:
   - {fileID: 4507297857586621503, guid: 298c3808e44110f41a2753117342c72a, type: 3}
+  Enemies:
+  - {fileID: 2421614256026400632, guid: 3683e129977a386469bf7c7a60955b44, type: 3}

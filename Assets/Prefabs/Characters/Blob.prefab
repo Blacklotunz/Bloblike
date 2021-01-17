@@ -74,9 +74,9 @@ GameObject:
   - component: {fileID: 3890369987695784148}
   - component: {fileID: 3890369987695784155}
   - component: {fileID: 3119233009349352322}
+  - component: {fileID: 8877031589236998208}
   - component: {fileID: 3890369987695784152}
   - component: {fileID: 3890369987695784153}
-  - component: {fileID: 8877031589236998208}
   m_Layer: 9
   m_Name: Blob
   m_TagString: Player
@@ -212,6 +212,23 @@ MonoBehaviour:
   timeBetweenAtk: 0.5
   playerAtkOffset: 0
   dead: 0
+--- !u!114 &8877031589236998208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890369987695784151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586a66cd94d11840aea18cde1514a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  cameraContainer: {fileID: 0}
+  cameraSpeed: 3
+  offsetX: -5
+  offsetY: -4
 --- !u!50 &3890369987695784152
 Rigidbody2D:
   serializedVersion: 4
@@ -249,20 +266,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
---- !u!114 &8877031589236998208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3890369987695784151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a586a66cd94d11840aea18cde1514a5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  cameraContainer: {fileID: 0}
-  cameraSpeed: 3
-  offsetX: -5
-  offsetY: -4
