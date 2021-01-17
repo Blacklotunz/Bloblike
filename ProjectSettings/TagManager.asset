@@ -15,6 +15,7 @@ TagManager:
   - Wall
   - Door
   - Weapon
+  - Chest
   layers:
   - Default
   - TransparentFX

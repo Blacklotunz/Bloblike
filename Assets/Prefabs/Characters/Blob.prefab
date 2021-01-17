@@ -202,7 +202,6 @@ MonoBehaviour:
   - {fileID: 0}
   attackPos: {fileID: 3890369987695784154}
   animator: {fileID: 0}
-  attackPosition: {x: 0, y: 0, z: 0}
   Damageble:
     serializedVersion: 2
     m_Bits: 256
@@ -265,5 +264,5 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   cameraContainer: {fileID: 0}
   cameraSpeed: 3
-  offsetX: 0
-  offsetY: 0
+  offsetX: -5
+  offsetY: -4

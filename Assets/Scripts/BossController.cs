@@ -5,17 +5,19 @@ using UnityEngine;
 public class BossController : MonoBehaviour
 {
     Animator animator;
-    public bool awake, dead;
-    public float attackCooldown, projectileSpeed;
+    public bool awake, dead, hidden;
+    public float attackCooldown, projectileSpeed, showTime, hideTime;
     public int health;
-    public GameObject projectiles;
-    private float attackTime;
+    public GameObject projectiles, loot;
+    private float attackTime, hideTimer, showTimer;
 
     public void Start()
     {
         animator = GetComponent<Animator>();
         awake = false;
-        attackTime = Time.time;
+        hidden = false;
+        hideTimer = hideTime;
+        showTimer = showTime;
     }
 
     void Update()
@@ -29,6 +31,26 @@ public class BossController : MonoBehaviour
             //this.Attack(); invoked at the end of the animation
         }
 
+        if(hidden)
+        {
+            showTimer -= Time.deltaTime;
+            if(showTimer <= 0)
+            {
+                animator.SetTrigger("show");
+                hidden = !hidden;
+                showTimer = showTime;
+            }
+        }
+        else
+        {
+            hideTimer -= Time.deltaTime;
+            if(hideTimer <= 0)
+            {
+                animator.SetTrigger("hide");
+                hidden = !hidden;
+                hideTimer = hideTime;
+            }
+        }
     }
 
     void Attack()
@@ -37,24 +59,23 @@ public class BossController : MonoBehaviour
         projectile.GetComponent<Rigidbody2D>().AddForce((GameObject.FindGameObjectWithTag("Player").transform.position - this.transform.position).normalized * projectileSpeed);
     }
 
-
     public void TakeDamage(int dmg)
     {
-        animator.SetTrigger("dmg");
+        if (dead) return;
         health -= dmg;
         if (health <= 0)
         {
             Die();
             return;
         }
+        animator.SetTrigger("dmg");
     }
-
 
     public void Die()
     {
         dead = true;
         animator.SetTrigger("death");
         Destroy(gameObject, 3f);
+        Instantiate(loot, transform.position, Quaternion.identity); 
     }
-   
 }
