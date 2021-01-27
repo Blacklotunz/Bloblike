@@ -12,23 +12,24 @@ public class RoomSpawner : MonoBehaviour
 
     public RoomTemplates templates;
     private int rand;
-    private bool spawned;
+    public bool spawned;
     public float spawnOffsetX, spawnOffsetY;
 
     // Start is called before the first frame update
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("RoomsTemplate").GetComponent<RoomTemplates>();
-        spawned = false;
-        Invoke("Spawn", .1f);
+        Invoke("Spawn", 1f);
     }
 
     void Spawn()
     {
+        if (spawned) return;
+
         if (!spawned && templates.roomLeft > 0)
         {
-            templates.roomLeft--;
             spawned = true;
+            templates.roomLeft--;
             GameObject nextRoom;
             switch (this.openingPoint)
             {
@@ -53,26 +54,31 @@ public class RoomSpawner : MonoBehaviour
                     LevelMap.AddRoom(nextRoom.name, nextRoom);
                     break;
             }
+            
+        }else
+        {
+            RemoveDoor();
         }
+    }
 
-        if (templates.roomLeft <= 0 && !spawned) {
-            //remove unused doors from this room
-            Quaternion rotation = GetTileRotation();
-            //spawn Wall tile to parent.transform.position
-            LevelTemplate lt = FindObjectOfType<LevelTemplate>();
-            GameObject newObject = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
-            newObject.transform.parent = transform.parent.parent;
-            CleanUp();
-        }
+    public void RemoveDoor()
+    {
+        //remove unused doors from this room
+        Quaternion rotation = GetTileRotation();
+        //spawn Wall tile to parent.transform.position
+        LevelTemplate lt = FindObjectOfType<LevelTemplate>();
+        GameObject newObject = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
+        newObject.transform.parent = transform.parent.parent;
+        Destroy(transform.parent.gameObject);
     }
 
     Quaternion GetTileRotation()
     {
         //walls
         //to R -1 1
-        //to L 1 1
+        //to L  1 1
         //to T -1 0
-        //to B 0  0
+        //to B  0 0
         Quaternion rotation = Quaternion.identity;
         switch (this.openingPoint)
         {
@@ -92,17 +98,15 @@ public class RoomSpawner : MonoBehaviour
         return rotation;
     }
 
-
-    void CleanUp()
-    {
-        if (!spawned)
-        {
-            Destroy(transform.parent.gameObject);
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Room" || collision.tag=="RoomSpawn") Destroy(gameObject);
+        if (collision.CompareTag("RoomSpawn"))
+        {
+            if (this.spawned && !collision.GetComponent<RoomSpawner>().spawned)
+            {
+                Destroy(collision.gameObject);
+            }
+           
+        }
     }
 }

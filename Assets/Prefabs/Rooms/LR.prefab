@@ -1355,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotation: {x: 1, y: 0, z: 0, w: 0}
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2848089835067701808
@@ -6569,6 +6569,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4565142186555220417}
     m_Modifications:
+    - target: {fileID: 1032243494130837574, guid: 32016ea5bf999f447bb95b3b1f017585, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032243494130837574, guid: 32016ea5bf999f447bb95b3b1f017585, type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5924932059346377079, guid: 32016ea5bf999f447bb95b3b1f017585, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6674,6 +6682,14 @@ PrefabInstance:
     - target: {fileID: 2567495740437640265, guid: 351337be335c2c2479edba9a9a7139c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095165758802967984, guid: 351337be335c2c2479edba9a9a7139c1, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095165758802967984, guid: 351337be335c2c2479edba9a9a7139c1, type: 3}
+      propertyPath: m_Size.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4897460540032890499, guid: 351337be335c2c2479edba9a9a7139c1, type: 3}
       propertyPath: m_Name

@@ -34,6 +34,28 @@ public class BossRoom : MonoBehaviour
             collision.GetComponent<CameraControl>().CameraShake(3f);
             Invoke("SpawnBoss",2f);
         }
+        if (collision.CompareTag("RoomSpawn"))
+        {
+            if (!IsNextRoomCompatible(collision.gameObject.name))
+            {
+                collision.GetComponent<RoomSpawner>().RemoveDoor();
+            }
+            Destroy(collision.gameObject);
+        }
+    }
+
+    bool IsNextRoomCompatible(string adiacentDoorName)
+    {
+        Dictionary<string, string> compatibility = new Dictionary<string, string>();
+        compatibility.Add("R", "L");
+        compatibility.Add("L", "R");
+        compatibility.Add("T", "B");
+        compatibility.Add("B", "T");
+
+        string side = adiacentDoorName.Split(' ')[1];
+        string compatibleSide;
+        compatibility.TryGetValue(side, out compatibleSide);
+        return gameObject.name.Contains(compatibleSide);
     }
 
     private void SpawnBoss()
