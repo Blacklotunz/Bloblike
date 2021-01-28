@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BossRoom : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class BossRoom : MonoBehaviour
         }
         if (collision.CompareTag("RoomSpawn"))
         {
-            if (!IsNextRoomCompatible(collision.gameObject.name))
+            if (!IsNextRoomCompatible(collision.transform.parent.name))
             {
                 collision.GetComponent<RoomSpawner>().RemoveDoor();
             }
@@ -46,16 +47,7 @@ public class BossRoom : MonoBehaviour
 
     bool IsNextRoomCompatible(string adiacentDoorName)
     {
-        Dictionary<string, string> compatibility = new Dictionary<string, string>();
-        compatibility.Add("R", "L");
-        compatibility.Add("L", "R");
-        compatibility.Add("T", "B");
-        compatibility.Add("B", "T");
-
-        string side = adiacentDoorName.Split(' ')[1];
-        string compatibleSide;
-        compatibility.TryGetValue(side, out compatibleSide);
-        return gameObject.name.Contains(compatibleSide);
+        return false;
     }
 
     private void SpawnBoss()

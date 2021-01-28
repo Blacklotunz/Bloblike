@@ -44,13 +44,19 @@ public class RoomController : MonoBehaviour
         {
             Spawn();
         }
+        
         if (collision.CompareTag("RoomSpawn") && !collision.gameObject.name.Contains("Fake"))
         {
-            if (!IsNextRoomCompatible(collision.transform.parent.gameObject.name))
+            if (!IsNextRoomCompatible(collision.transform.parent.name))
             {
                 collision.GetComponent<RoomSpawner>().spawned = true;
                 collision.GetComponent<RoomSpawner>().RemoveDoor();
             }
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.CompareTag("Room"))
+        {
             Destroy(collision.gameObject);
         }
     }

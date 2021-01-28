@@ -106,7 +106,11 @@ public class RoomSpawner : MonoBehaviour
             {
                 Destroy(collision.gameObject);
             }
-           
+            if(!this.spawned && !collision.GetComponent<RoomSpawner>().spawned)
+            {
+                this.spawned = true;
+                this.RemoveDoor();
+            }
         }
     }
 }
