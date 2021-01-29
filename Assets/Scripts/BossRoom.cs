@@ -35,6 +35,8 @@ public class BossRoom : MonoBehaviour
             collision.GetComponent<CameraControl>().CameraShake(3f);
             Invoke("SpawnBoss",2f);
         }
+
+        //checks whether the adjacent room has compatible door otherwhise remove it
         if (collision.CompareTag("RoomSpawn"))
         {
             if (!IsNextRoomCompatible(collision.transform.parent.name))
@@ -45,6 +47,7 @@ public class BossRoom : MonoBehaviour
         }
     }
 
+    //no adjacent room to the boss room!
     bool IsNextRoomCompatible(string adiacentDoorName)
     {
         return false;

@@ -44,7 +44,8 @@ public class RoomController : MonoBehaviour
         {
             Spawn();
         }
-        
+
+        //checks whether the adjacent room has compatible door otherwhise remove it also remove the spawn point to avoid room stacking on eachother
         if (collision.CompareTag("RoomSpawn") && !collision.gameObject.name.Contains("Fake"))
         {
             if (!IsNextRoomCompatible(collision.transform.parent.name))
@@ -52,11 +53,6 @@ public class RoomController : MonoBehaviour
                 collision.GetComponent<RoomSpawner>().spawned = true;
                 collision.GetComponent<RoomSpawner>().RemoveDoor();
             }
-            Destroy(collision.gameObject);
-        }
-
-        if (collision.CompareTag("Room"))
-        {
             Destroy(collision.gameObject);
         }
     }

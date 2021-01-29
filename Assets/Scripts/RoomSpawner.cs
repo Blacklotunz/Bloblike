@@ -19,14 +19,12 @@ public class RoomSpawner : MonoBehaviour
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("RoomsTemplate").GetComponent<RoomTemplates>();
-        Invoke("Spawn", 1f);
+        Invoke("Spawn", 0.1f);
     }
 
     void Spawn()
     {
-        if (spawned) return;
-
-        if (!spawned && templates.roomLeft > 0)
+        if (templates.roomLeft > 0)
         {
             spawned = true;
             templates.roomLeft--;
@@ -96,21 +94,5 @@ public class RoomSpawner : MonoBehaviour
                 break;
         }
         return rotation;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("RoomSpawn"))
-        {
-            if (this.spawned && !collision.GetComponent<RoomSpawner>().spawned)
-            {
-                Destroy(collision.gameObject);
-            }
-            if(!this.spawned && !collision.GetComponent<RoomSpawner>().spawned)
-            {
-                this.spawned = true;
-                this.RemoveDoor();
-            }
-        }
     }
 }
