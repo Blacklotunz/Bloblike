@@ -15,6 +15,7 @@ public class RoomTemplates : MonoBehaviour
         roomLeft = numOfRooms;
         bossSpawned = false;
         playerSpawned = false;
+        
     }
 
     public void FixedUpdate()

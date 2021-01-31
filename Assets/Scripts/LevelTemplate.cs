@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class LevelTemplate : MonoBehaviour
 {
-    public GameObject[] LevelObstacles, LevelFloor, LevelWalls, Enemies;
+    public GameObject[] LevelObstacles, LevelFloor, LevelWalls, LevelWallsAppliances, Enemies;
+    public int level;
 }

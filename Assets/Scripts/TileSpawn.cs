@@ -13,6 +13,7 @@ public class TileSpawn : MonoBehaviour
     {
         levelTemplate = GameObject.FindGameObjectWithTag("LevelTemplate").GetComponent<LevelTemplate>();
         tileSpawned = false;
+        level = levelTemplate.level;
     }
 
 
@@ -37,6 +38,12 @@ public class TileSpawn : MonoBehaviour
             {
                 newObject = Instantiate(levelTemplate.LevelWalls[level], this.transform.position, rotation);
                 newObject.transform.parent = gameObject.transform;
+
+                if (Random.Range(0, 100) > 80)
+                {
+                    newObject = Instantiate(levelTemplate.LevelWallsAppliances[Random.Range(0, levelTemplate.LevelWallsAppliances.Length - 1)], this.transform.position, rotation);
+                    newObject.transform.parent = gameObject.transform;
+                }
             }
             tileSpawned = true;
         }
