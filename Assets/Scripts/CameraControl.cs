@@ -9,8 +9,8 @@ public class CameraControl : MonoBehaviour
     public GameObject cameraContainer;
     public float cameraSpeed, offsetX, offsetY;
     private Vector3 collisionPosition;
-    private bool cameraMove = false;
-
+    private bool cameraMove = false, firstTimeSpawned = false;
+    
     void Start()
     {
         cameraContainer = GameObject.Find("CameraContainer");
@@ -27,6 +27,18 @@ public class CameraControl : MonoBehaviour
             cameraMove = true;
         }
 
+        if (!firstTimeSpawned)
+        {
+            firstTimeSpawned = true;
+            Invoke("fadeOut", 1.5f);
+        }
+           
+
+    }
+
+    void fadeOut()
+    {
+        CrossFade.fadeOut();
     }
 
     void FixedUpdate()

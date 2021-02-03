@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &47298862408178659
@@ -141,7 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &83449544480155137
@@ -239,7 +243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &99668908159249010
@@ -337,7 +343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &109314788265019987
@@ -383,7 +391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &129646873724830661
@@ -481,7 +491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &157255325042583935
@@ -527,7 +539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &172042373980005366
@@ -625,7 +639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &268371062946057016
@@ -671,7 +687,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &490317222272702384
@@ -717,7 +735,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &499379244445710466
@@ -763,7 +783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &557333684969220817
@@ -809,7 +831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &562104201455644162
@@ -907,7 +931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &630910009446953709
@@ -953,7 +979,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &646252064029325581
@@ -999,7 +1027,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &723961261117686630
@@ -1045,7 +1075,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &739740622343136841
@@ -1091,7 +1123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &856889606880912255
@@ -1137,7 +1171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &910378767890033314
@@ -1183,7 +1219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &991765869668202555
@@ -1281,7 +1319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &994797715068504729
@@ -1327,7 +1367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1268759187586120536
@@ -1373,7 +1415,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1383640537396131588
@@ -1419,7 +1463,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1388879270348160433
@@ -1465,7 +1511,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1413118249060566229
@@ -1511,7 +1559,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1541843882238290704
@@ -1557,7 +1607,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1636983682377756888
@@ -1603,7 +1655,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1718030779757930844
@@ -1649,7 +1703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &1859567312453467981
@@ -1695,7 +1751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2030976382659986068
@@ -1741,7 +1799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2039830976068464501
@@ -1787,7 +1847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2155364782742127392
@@ -1885,7 +1947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2192325440453314915
@@ -1931,7 +1995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2200510024357276212
@@ -1977,7 +2043,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2239591861029430153
@@ -2023,7 +2091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2242467948746092278
@@ -2069,7 +2139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2425445815048677482
@@ -2115,7 +2187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2451944857816240701
@@ -2213,7 +2287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2455090212168759403
@@ -2311,7 +2387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2544195393552095039
@@ -2357,7 +2435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2583772639431796879
@@ -2403,7 +2483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2676468623044832423
@@ -2449,7 +2531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2810168889793781472
@@ -2547,7 +2631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2848089835067701808
@@ -2593,7 +2679,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2900199183330872995
@@ -2639,7 +2727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3038825752995216704
@@ -2685,7 +2775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3130098624286898534
@@ -2731,7 +2823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3133942861467455108
@@ -2777,7 +2871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3226576336747570462
@@ -2823,7 +2919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3271997516982751697
@@ -2869,7 +2967,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3349331846981490191
@@ -3050,7 +3150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3476305602309971865
@@ -3096,7 +3198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3567743177328954185
@@ -3142,7 +3246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3685096315114603351
@@ -3240,7 +3346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3703353140811432668
@@ -3286,7 +3394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3784344185265306065
@@ -3332,7 +3442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3833173788373518867
@@ -3378,7 +3490,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &3852397004354242478
@@ -3424,7 +3538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4032996039095972823
@@ -3470,7 +3586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4212340064988266752
@@ -3516,7 +3634,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4224618421905545093
@@ -3562,7 +3682,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4277323658852689754
@@ -3608,7 +3730,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4529588203288288743
@@ -3706,7 +3830,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142185921094090
@@ -3804,7 +3930,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186033100649
@@ -3902,7 +4030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186093064823
@@ -4000,7 +4130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186166482454
@@ -4098,7 +4230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186180433529
@@ -4196,7 +4330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186198847963
@@ -4294,7 +4430,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186242744839
@@ -4392,7 +4530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186252540072
@@ -4490,7 +4630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186271897329
@@ -4662,7 +4804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186488547349
@@ -4760,7 +4904,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186514411236
@@ -4858,7 +5004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186522241466
@@ -4956,7 +5104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186555220418
@@ -5133,7 +5283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186602008446
@@ -5231,7 +5383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186690523236
@@ -5329,7 +5483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186811501266
@@ -5427,7 +5583,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186887316689
@@ -5525,7 +5683,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186919724141
@@ -5623,7 +5783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142186967002598
@@ -5721,7 +5883,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: -90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187066507900
@@ -5819,7 +5983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187199426206
@@ -5917,7 +6083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187207668850
@@ -6015,7 +6183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187340612414
@@ -6113,7 +6283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187475586575
@@ -6211,7 +6383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187712615994
@@ -6309,7 +6483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 1, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187771150562
@@ -6407,7 +6583,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187844432053
@@ -6505,7 +6683,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4565142187871375406
@@ -6603,7 +6783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4566122066599148607
@@ -6649,7 +6831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4607678370076548730
@@ -6695,7 +6879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4634592398679213338
@@ -6741,7 +6927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4752798039094166363
@@ -6787,7 +6975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4808753591337937626
@@ -6833,7 +7023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4855140069419954651
@@ -6931,7 +7123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4879514624966347021
@@ -6977,7 +7171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4930620334988929721
@@ -7023,7 +7219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &4977933455556622183
@@ -7069,7 +7267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5098588001288772077
@@ -7115,7 +7315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5123360337657437708
@@ -7161,7 +7363,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5176650717040710499
@@ -7207,7 +7411,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5206559975941587359
@@ -7253,7 +7459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5301335344729310955
@@ -7299,7 +7507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5478209518284165181
@@ -7345,7 +7555,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5484050672919104089
@@ -7391,7 +7603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5778500370953232953
@@ -7437,7 +7651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5827620654867832722
@@ -7535,7 +7751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &5855393228002469406
@@ -7581,7 +7799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6004708796749326196
@@ -7627,7 +7847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6072718424948719437
@@ -7673,7 +7895,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6076187438193160904
@@ -7771,7 +7995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6087737463849727802
@@ -7817,7 +8043,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6104391591981666615
@@ -7863,7 +8091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6140125724216612221
@@ -7909,7 +8139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6142952976565584316
@@ -7955,7 +8187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6182894051265227579
@@ -8001,7 +8235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6240095445758946543
@@ -8099,7 +8335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6295707502844525936
@@ -8145,7 +8383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6425549175644741070
@@ -8191,7 +8431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6437763574060762464
@@ -8237,7 +8479,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6532696992096304329
@@ -8283,7 +8527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6612769893026635024
@@ -8381,7 +8627,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: -1, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 180
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6624479483469273827
@@ -8427,7 +8675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6709615192551187158
@@ -8473,7 +8723,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &6803393746059633916
@@ -8519,7 +8771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7044064730747678139
@@ -8565,7 +8819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7208041539360241313
@@ -8611,7 +8867,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7220766868731481896
@@ -8657,7 +8915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7323615233215696111
@@ -8703,7 +8963,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7382619844132677223
@@ -8749,7 +9011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7569361693669792909
@@ -8795,7 +9059,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7648986444072360126
@@ -8841,7 +9107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7698356594212687508
@@ -8887,7 +9155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7797247103547453428
@@ -8933,7 +9203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7812401930643175344
@@ -8979,7 +9251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7935554186052415198
@@ -9025,7 +9299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &7963696300241066516
@@ -9071,7 +9347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8233709524399186098
@@ -9117,7 +9395,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8242637304191852935
@@ -9163,7 +9443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8274656962810848291
@@ -9209,7 +9491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8486892416236493632
@@ -9307,7 +9591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8525709809934991146
@@ -9353,7 +9639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8535381734303110065
@@ -9399,7 +9687,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8553903728637950908
@@ -9445,7 +9735,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8569160839622544445
@@ -9491,7 +9783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8710555247610231647
@@ -9537,7 +9831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8972575676780792971
@@ -9583,7 +9879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &8977541503968307787
@@ -9629,7 +9927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &9151402824794160092
@@ -9675,7 +9975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &9213747140301869096
@@ -9721,7 +10023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198185af4ca3e5749b76b0e1b021c147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  rotationX: 0
+  rotationY: 0
+  rotationZ: 0
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1001 &2642309862603993216

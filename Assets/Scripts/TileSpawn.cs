@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TileSpawn : MonoBehaviour
 {
-    public Quaternion rotation;
-    private bool tileSpawned, corner;
+    private Quaternion rotation;
+    public float rotationX, rotationY, rotationZ;
+    private bool tileSpawned;
     public LevelTemplate levelTemplate;
     public int level;
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class TileSpawn : MonoBehaviour
         levelTemplate = GameObject.FindGameObjectWithTag("LevelTemplate").GetComponent<LevelTemplate>();
         tileSpawned = false;
         level = levelTemplate.level;
+        rotation = Quaternion.Euler(rotationX, rotationY, rotationZ);
     }
 
 
@@ -39,7 +41,7 @@ public class TileSpawn : MonoBehaviour
                 newObject = Instantiate(levelTemplate.LevelWalls[level], this.transform.position, rotation);
                 newObject.transform.parent = gameObject.transform;
 
-                if (Random.Range(0, 100) > 80)
+                if (Random.Range(0, 100) > 80 && !this.name.Contains("corner") && !this.name.Contains("Hole"))
                 {
                     newObject = Instantiate(levelTemplate.LevelWallsAppliances[Random.Range(0, levelTemplate.LevelWallsAppliances.Length - 1)], this.transform.position, rotation);
                     newObject.transform.parent = gameObject.transform;

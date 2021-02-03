@@ -6,10 +6,11 @@ public class BossController : MonoBehaviour
 {
     Animator animator;
     public bool awake, dead, hidden, damageble;
-    public float attackCooldown, projectileSpeed, showTime, hideTime;
-    public int health;
+    public float attackCooldown, projectileSpeed, showTime, hideTime, tiredCoolDown;
+    public int health, attacksToSickness;
     public GameObject projectiles, loot;
     private float attackTime, hideTimer, showTimer;
+    private int attacksLeft;
 
     public void Start()
     {
@@ -18,6 +19,7 @@ public class BossController : MonoBehaviour
         hidden = false;
         hideTimer = hideTime;
         showTimer = showTime;
+        attacksLeft = attacksToSickness;
     }
 
     void Update()
@@ -51,18 +53,31 @@ public class BossController : MonoBehaviour
                 hidden = !hidden;
                 hideTimer = hideTime;
             }
+            if(attacksLeft <= 0)
+            {
+                animator.SetBool("tired", true);
+                Invoke("SetActive", tiredCoolDown);
+            }
         }
+    }
+
+    void SetActive()
+    {
+        animator.SetBool("tired", false);
+        attacksLeft = attacksToSickness;
     }
 
     void Attack()
     {
-        GameObject projectile = Instantiate(projectiles, this.transform.position, Quaternion.Euler(new Vector3(1f, 2f, 0f)));
-        projectile.GetComponent<Rigidbody2D>().AddForce((GameObject.FindGameObjectWithTag("Player").transform.position - this.transform.position).normalized * projectileSpeed);
+        GameObject projectile = Instantiate(projectiles, new Vector3(this.transform.position.x, this.transform.position.y - 1f, this.transform.position.z), Quaternion.Euler(new Vector3(1f, 2f, 0f)));
+        projectile.GetComponent<Rigidbody2D>().AddForce((GameObject.FindGameObjectWithTag("Player").transform.position - projectile.transform.position).normalized * projectileSpeed);
+        attacksLeft--;
     }
 
     public void TakeDamage(int dmg)
     {
         if (dead || !damageble) return;
+
         health -= dmg;
         if (health <= 0)
         {

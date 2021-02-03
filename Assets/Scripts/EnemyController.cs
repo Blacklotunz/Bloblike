@@ -142,6 +142,7 @@ public class EnemyController : MonoBehaviour
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         this.GetComponent<Collider2D>().enabled = false;
         this.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
+        this.GetComponent<SpriteRenderer>().sortingOrder = 1;
         this.GetComponent<EnemyController>().enabled = false;
         roomReference.EnemyKilled();
     }

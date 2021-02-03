@@ -21,7 +21,7 @@ public class RatProjectileController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        //this.GetComponent<Rigidbody2D>()
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

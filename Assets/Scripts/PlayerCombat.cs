@@ -132,6 +132,7 @@ public class PlayerCombat : MonoBehaviour
         this.GetComponent<Rigidbody2D>().simulated = false;
         this.GetComponent<Collider2D>().enabled = false;
         this.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
+
     }
 
 /*    private void OnDrawGizmosSelected()
