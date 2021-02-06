@@ -103,12 +103,12 @@ MonoBehaviour:
   hidden: 0
   damageble: 0
   attackCooldown: 2
-  projectileSpeed: 110
-  showTime: 2
-  hideTime: 30
+  projectileSpeed: 120
+  showTime: 3
+  hideTime: 10
   tiredCoolDown: 2
   health: 10
-  attacksToSickness: 2
+  attacksToSickness: 5
   projectiles: {fileID: 97244131697771752, guid: 1b6a30fec20cb6a4b8a6358b2dd824c3, type: 3}
   loot: {fileID: 757654989195247001, guid: 72f17dd864a513c4c9a4f3689d637240, type: 3}
 --- !u!95 &8467276097927508740

@@ -7,8 +7,8 @@ public class RoomController : MonoBehaviour
     public int numOfEnemies;
     public LevelTemplate levelTemplate;
     private List<GameObject> roomTiles, roomDoors;
-    private bool roomCleared, enemySpawned;
-
+    public bool enemySpawned, roomCleared;
+    
     void Start(){
         levelTemplate = FindObjectOfType<LevelTemplate>(); 
         roomTiles = new List<GameObject>();

@@ -18,6 +18,7 @@ public class EnemyController : MonoBehaviour
     private Vector2 force, pushbackPosition;
     private Vector3 heading;
     private float distance, timeBetweenAtk, pushBackTimer;
+    private int attackDirection;
 
 
     // Start is called before the first frame update
@@ -137,6 +138,7 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
+        dead = true;
         //Freeze all positions
         animator.SetTrigger("dead");
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
@@ -144,7 +146,7 @@ public class EnemyController : MonoBehaviour
         this.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
         this.GetComponent<SpriteRenderer>().sortingOrder = 1;
         this.GetComponent<EnemyController>().enabled = false;
-        roomReference.EnemyKilled();
+        roomReference.EnemyKilled(); //toDO event
     }
 
    void pushBack()
@@ -158,6 +160,19 @@ public class EnemyController : MonoBehaviour
         //reset atk cooldown
         attackCooldown = timeBetweenAtk;
 
+        //enemiesToDmg = Physics2D.OverlapBoxAll(attackPosition, new Vector2(atkRangeX, atkRangeY), 0, Damageble);
+        animator.SetInteger("attackDirection", attackDirection);
+
+        this.attackDirection = attackDirection;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(attackPosition, new Vector3(atkRangeX, atkRangeX, 1));
+    }
+
+    public Vector3 getAttackPosition()
+    {
         switch (attackDirection)
         {
             case 1:
@@ -176,12 +191,8 @@ public class EnemyController : MonoBehaviour
                 attackPosition = new Vector3(transform.position.x, transform.position.y, 1);
                 break;
         }
-        //enemiesToDmg = Physics2D.OverlapBoxAll(attackPosition, new Vector2(atkRangeX, atkRangeY), 0, Damageble);
-        animator.SetInteger("attackDirection", attackDirection);
+
+        return attackPosition;
     }
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(attackPosition, new Vector3(atkRangeX, atkRangeX, 1));
-    }
+
 }

@@ -7,7 +7,7 @@ public class AnimatorCombat : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool("moving", false);
+        //animator.SetBool("moving", false);
     }
 
    
@@ -15,7 +15,8 @@ public class AnimatorCombat : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         EnemyController ec = animator.GetComponent<EnemyController>();
-        Collider2D[] enemiesToDmg = Physics2D.OverlapBoxAll(ec.attackPosition, new Vector2(ec.atkRangeX, ec.atkRangeY), 0, ec.Damageble);
+        if (ec.dead) return;
+        Collider2D[] enemiesToDmg = Physics2D.OverlapBoxAll(ec.getAttackPosition(), new Vector2(ec.atkRangeX, ec.atkRangeY), 0, ec.Damageble);
         foreach (Collider2D enemy in enemiesToDmg)
         {
             if (enemy.GetComponent<PlayerCombat>())

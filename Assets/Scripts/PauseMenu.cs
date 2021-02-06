@@ -6,11 +6,22 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    public GameObject pauseMenuUI;
-    public void Update()
+    public GameObject pauseMenuUI, gameOverMenuUI;
+
+    private void Start()
+    {
+        GameEvents.current.onPlayerDie += GameOver;
+    }
+
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (gameOverMenuUI.activeInHierarchy)
+            {
+                return;
+            }
+
             if (GameIsPaused)
             {
                 this.Resume();
@@ -27,6 +38,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         pauseMenuUI.SetActive(true);
+    }
+
+    public void GameOver()
+    {
+        gameOverMenuUI.SetActive(true);
     }
 
     public void Resume()
@@ -48,6 +64,7 @@ public class PauseMenu : MonoBehaviour
     public void ToMainMenu()
     {
         Time.timeScale = 1f;
+        LevelMap.ResetMap();
         SceneManager.LoadScene(0);
     }
 

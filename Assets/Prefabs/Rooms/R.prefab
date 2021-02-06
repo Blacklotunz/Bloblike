@@ -3184,6 +3184,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numOfEnemies: 2
   levelTemplate: {fileID: 0}
+  enemySpawned: 0
+  roomCleared: 0
 --- !u!1 &2169724619521882610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3581,7 +3583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationX: 0
   rotationY: 0
-  rotationZ: -90
+  rotationZ: 90
   levelTemplate: {fileID: 0}
   level: 0
 --- !u!1 &2169724619607807820

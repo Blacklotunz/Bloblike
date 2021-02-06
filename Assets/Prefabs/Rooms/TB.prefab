@@ -3273,6 +3273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numOfEnemies: 2
   levelTemplate: {fileID: 0}
+  enemySpawned: 0
+  roomCleared: 0
 --- !u!1 &3764692526446317027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10148,6 +10150,10 @@ PrefabInstance:
     - target: {fileID: 5446769786286064501, guid: ec2912c9d4d9145478a34ffbeb5f7906, type: 3}
       propertyPath: m_Size.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446769786286064501, guid: ec2912c9d4d9145478a34ffbeb5f7906, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8817261695507323471, guid: ec2912c9d4d9145478a34ffbeb5f7906, type: 3}
       propertyPath: m_Name

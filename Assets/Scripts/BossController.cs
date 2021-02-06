@@ -92,6 +92,6 @@ public class BossController : MonoBehaviour
         dead = true;
         animator.SetTrigger("death");
         Destroy(gameObject, 3f);
-        Instantiate(loot, transform.position, Quaternion.identity); 
+        Instantiate(loot, new Vector3(transform.position.x, transform.position.y-2f, transform.position.z), Quaternion.identity); 
     }
 }

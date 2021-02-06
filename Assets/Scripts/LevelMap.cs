@@ -21,6 +21,12 @@ public class LevelMap : MonoBehaviour
         levelMap.Add(newEntry);
     }
 
+    public static void ResetMap()
+    {
+        levelMap = new List<DictionaryEntry>();
+    }
+
+
     public static GameObject GetLastRoom()
     {
         return (GameObject)levelMap.Last<DictionaryEntry>().Value;

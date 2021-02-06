@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoomTemplates : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class RoomTemplates : MonoBehaviour
         roomLeft = numOfRooms;
         bossSpawned = false;
         playerSpawned = false;
+
+        Invoke("RecreateLevel", 1f);
         
     }
 
@@ -25,7 +28,26 @@ public class RoomTemplates : MonoBehaviour
         {
             playerSpawned = true;
             GameObject lastRoom = LevelMap.GetLastRoom();
+
+
+            EnemyCombat[] enemies = lastRoom.GetComponentsInChildren<EnemyCombat>();
+            foreach(EnemyCombat enemy in enemies)
+            {
+                Destroy(enemy.gameObject);
+            }
+            lastRoom.GetComponent<RoomController>().roomCleared = true;
+            lastRoom.GetComponent<RoomController>().enemySpawned = true;
             Instantiate(player, lastRoom.transform.position + new Vector3(3f,2f,0f) , Quaternion.identity); 
         }
     }
+
+    public void RecreateLevel()
+    {
+        if(roomLeft > 0)
+        {
+            LevelMap.ResetMap();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
 }

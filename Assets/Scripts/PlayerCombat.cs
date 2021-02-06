@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     public GameObject[] healthCounters;
-    public TMPro.TextMeshProUGUI coinCounter;
     public Transform attackPos;
     public Animator animator;
     //public Vector3 attackPosition;
@@ -25,8 +24,7 @@ public class PlayerCombat : MonoBehaviour
         dead = false;
 
         healthCounters = GameObject.FindGameObjectsWithTag("Health Count");
-        healthCounters = healthCounters.OrderByDescending( e => e.name ).ToArray();
-        coinCounter = GameObject.FindGameObjectWithTag("CoinsCounter").GetComponent<TMPro.TextMeshProUGUI>();
+        healthCounters = healthCounters.OrderByDescending( e => e.name ).ToArray();   
     }
 
     // Update is called once per frame
@@ -71,9 +69,8 @@ public class PlayerCombat : MonoBehaviour
     {
         if (collision.gameObject.name.StartsWith("Coin"))
         {
-            int count = (int.Parse(coinCounter.text))+1;
-            coinCounter.text = count.ToString();
             collision.gameObject.SendMessage("Collect");
+            GameEvents.current.CoinCollected();
         }
     }
 
@@ -133,6 +130,8 @@ public class PlayerCombat : MonoBehaviour
         this.GetComponent<Collider2D>().enabled = false;
         this.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
 
+        //trigger the event
+        GameEvents.current.PlayerDie();
     }
 
 /*    private void OnDrawGizmosSelected()
