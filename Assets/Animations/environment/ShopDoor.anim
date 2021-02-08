@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: rat_dead
+  m_Name: ShopDoor
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,14 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -162368345731033587, guid: 7625ec3466d660646831c58ea254986d, type: 3}
-    - time: 0.25
-      value: {fileID: -4508708198631615943, guid: 7625ec3466d660646831c58ea254986d, type: 3}
+      value: {fileID: -4510814307897986445, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
+    - time: 0.16666667
+      value: {fileID: -5569305369354826732, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
+    - time: 0.33333334
+      value: {fileID: 4415224346855892057, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 4
+  m_SampleRate: 6
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -42,8 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -162368345731033587, guid: 7625ec3466d660646831c58ea254986d, type: 3}
-    - {fileID: -4508708198631615943, guid: 7625ec3466d660646831c58ea254986d, type: 3}
+    - {fileID: -4510814307897986445, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
+    - {fileID: -5569305369354826732, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
+    - {fileID: 4415224346855892057, guid: ff631128cb039f348ab96d75a0af2108, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

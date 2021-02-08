@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 841aa8d8eb8609a43888daaabfef7c4a
+guid: 2952c33b8b495ea4da029f973ecb5a7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3629302177569200798
-    second: Door Shop_0
+      213: 2066188200344418693
+    second: Crates_0
   - first:
-      213: -3485506195242129354
-    second: Door Shop_1
+      213: -5494983281948140313
+    second: Crates_1
   - first:
-      213: -7690022854919561755
-    second: Door Shop_2
+      213: 8145770697738668048
+    second: Crates_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Door Shop_0
+      name: Crates_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9a50940a1fdd5230800000000000000
-      internalID: 3629302177569200798
+      spriteID: 589f1a898339cac10800000000000000
+      internalID: 2066188200344418693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop_1
+      name: Crates_1
       rect:
         serializedVersion: 2
         x: 64
@@ -157,14 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6386b2a159ef0afc0800000000000000
-      internalID: -3485506195242129354
+      spriteID: 7ec55c891d5edb3b0800000000000000
+      internalID: -5494983281948140313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop_2
+      name: Crates_2
       rect:
         serializedVersion: 2
         x: 128
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed52e9f4fc874590800000000000000
-      internalID: -7690022854919561755
+      spriteID: 018cf7c9a479b0170800000000000000
+      internalID: 8145770697738668048
       vertices: []
       indices: 
       edges: []

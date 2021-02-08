@@ -1,49 +1,13 @@
 fileFormatVersion: 2
-guid: ff631128cb039f348ab96d75a0af2108
+guid: 7625ec3466d660646831c58ea254986d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4510814307897986445
-    second: Door Shop 1_0
+      213: -162368345731033587
+    second: Enemies Death 1_0
   - first:
-      213: -5569305369354826732
-    second: Door Shop 1_1
-  - first:
-      213: 4415224346855892057
-    second: Door Shop 1_2
-  - first:
-      213: -3095553401159729499
-    second: Door Shop 1_3
-  - first:
-      213: -5702676680708345649
-    second: Door Shop 1_4
-  - first:
-      213: 4067713347355656141
-    second: Door Shop 1_5
-  - first:
-      213: 9011371300438176180
-    second: Door Shop 1_6
-  - first:
-      213: 4980596812981179021
-    second: Door Shop 1_7
-  - first:
-      213: -2646076893678950060
-    second: Door Shop 1_8
-  - first:
-      213: -3610820286251719368
-    second: Door Shop 1_9
-  - first:
-      213: 8622940662401702900
-    second: Door Shop 1_10
-  - first:
-      213: -7899024119866436215
-    second: Door Shop 1_11
-  - first:
-      213: 5632803129527072410
-    second: Door Shop 1_12
-  - first:
-      213: 7011951484116798973
-    second: Door Shop 1_13
+      213: -4508708198631615943
+    second: Enemies Death 1_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -155,85 +119,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Door Shop 1_0
+      name: Enemies Death 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372bdf9494e5661c0800000000000000
-      internalID: -4510814307897986445
+      spriteID: d061fed89d62fbdf0800000000000000
+      internalID: -162368345731033587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop 1_1
+      name: Enemies Death 1_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41c0ee5264ad5b2b0800000000000000
-      internalID: -5569305369354826732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door Shop 1_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 954600e8627064d30800000000000000
-      internalID: 4415224346855892057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door Shop 1_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ae3f9425926a05d0800000000000000
-      internalID: -3095553401159729499
+      spriteID: 932dba018c9dd61c0800000000000000
+      internalID: -4508708198631615943
       vertices: []
       indices: 
       edges: []

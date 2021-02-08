@@ -14,12 +14,13 @@ public class RoomSpawner : MonoBehaviour
     private int rand;
     public bool spawned;
     public float spawnOffsetX, spawnOffsetY;
+    public GameObject replacementWall;
 
     // Start is called before the first frame update
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("RoomsTemplate").GetComponent<RoomTemplates>();
-        Invoke("Spawn", 0.1f);
+        Invoke("Spawn", .1f);
     }
 
     void Spawn()
@@ -63,34 +64,34 @@ public class RoomSpawner : MonoBehaviour
     {
         //remove unused doors from this room
         Quaternion rotation = GetTileRotation();
-        //spawn Wall tile to parent.transform.position
-        LevelTemplate lt = FindObjectOfType<LevelTemplate>();
-        GameObject newObject = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
+        GameObject newObject;
+        if (replacementWall != null)
+        {
+            newObject = Instantiate(replacementWall, transform.parent.transform.position, rotation);
+        }
+        else
+        {
+            //spawn Wall tile to parent.transform.position
+            LevelTemplate lt = FindObjectOfType<LevelTemplate>();
+            newObject = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
+        }
         newObject.transform.parent = transform.parent.parent;
         Destroy(transform.parent.gameObject);
     }
 
     Quaternion GetTileRotation()
     {
-        //walls
-        //to R -1 1
-        //to L  1 1
-        //to T -1 0
-        //to B  0 0
         Quaternion rotation = Quaternion.identity;
         switch (this.openingPoint)
         {
             case 1:
-                rotation = new Quaternion(-1f, 1f, 0f, 0f);
+                rotation = Quaternion.Euler(0f, 0f, - 90f);
                 break;
             case 2:
-                rotation = new Quaternion(-1f, 0f, 0f, 0f);
+                rotation = Quaternion.Euler(0f, 0f, 180f);
                 break;
             case 3:
-                rotation = new Quaternion(1f, 1f, 0f, 0f);
-                break;
-            case 4:
-                rotation = new Quaternion(0f, 0f, 0f, 0f);
+                rotation = Quaternion.Euler(0f, 0f, 90f);
                 break;
         }
         return rotation;

@@ -1,49 +1,13 @@
 fileFormatVersion: 2
-guid: ff631128cb039f348ab96d75a0af2108
+guid: 45de2cd828558a947bee4ec843b32ed7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4510814307897986445
-    second: Door Shop 1_0
+      213: 4814944578284757675
+    second: Shop Table_0
   - first:
-      213: -5569305369354826732
-    second: Door Shop 1_1
-  - first:
-      213: 4415224346855892057
-    second: Door Shop 1_2
-  - first:
-      213: -3095553401159729499
-    second: Door Shop 1_3
-  - first:
-      213: -5702676680708345649
-    second: Door Shop 1_4
-  - first:
-      213: 4067713347355656141
-    second: Door Shop 1_5
-  - first:
-      213: 9011371300438176180
-    second: Door Shop 1_6
-  - first:
-      213: 4980596812981179021
-    second: Door Shop 1_7
-  - first:
-      213: -2646076893678950060
-    second: Door Shop 1_8
-  - first:
-      213: -3610820286251719368
-    second: Door Shop 1_9
-  - first:
-      213: 8622940662401702900
-    second: Door Shop 1_10
-  - first:
-      213: -7899024119866436215
-    second: Door Shop 1_11
-  - first:
-      213: 5632803129527072410
-    second: Door Shop 1_12
-  - first:
-      213: 7011951484116798973
-    second: Door Shop 1_13
+      213: 4327143505138083342
+    second: Shop Table_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -153,91 +117,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Door Shop 1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 372bdf9494e5661c0800000000000000
-      internalID: -4510814307897986445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door Shop 1_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41c0ee5264ad5b2b0800000000000000
-      internalID: -5569305369354826732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door Shop 1_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 954600e8627064d30800000000000000
-      internalID: 4415224346855892057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Door Shop 1_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ae3f9425926a05d0800000000000000
-      internalID: -3095553401159729499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

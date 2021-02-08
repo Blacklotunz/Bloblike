@@ -488,6 +488,7 @@ GameObject:
   - component: {fileID: 8002010113196441471}
   - component: {fileID: 5083384938036167294}
   - component: {fileID: 1872638745568666755}
+  - component: {fileID: 50700248}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: CoinsCounter
@@ -611,6 +612,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &50700248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4249786369969747883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61006224838a81c44a8047f5d1602ed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinCounter: {fileID: 0}
 --- !u!114 &8419022532066760256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,6 +878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 0}
+  gameOverMenuUI: {fileID: 0}
 --- !u!1001 &1208142564028311477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -959,7 +974,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossFade
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3925309559514853563, guid: 49de5826645b6024ca4d4415611dd9b0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 49de5826645b6024ca4d4415611dd9b0, type: 3}
 --- !u!1 &4483694743901529874 stripped
 GameObject:

@@ -1,49 +1,22 @@
 fileFormatVersion: 2
-guid: ff631128cb039f348ab96d75a0af2108
+guid: bac8c326d59fe7b44ba14f1b22dab58c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4510814307897986445
-    second: Door Shop 1_0
+      213: -376161235773426787
+    second: CashMachineBuy_0
   - first:
-      213: -5569305369354826732
-    second: Door Shop 1_1
+      213: -7200897107249110286
+    second: CashMachineBuy_1
   - first:
-      213: 4415224346855892057
-    second: Door Shop 1_2
+      213: 315928932180302898
+    second: CashMachineBuy_2
   - first:
-      213: -3095553401159729499
-    second: Door Shop 1_3
+      213: -5123598947292097455
+    second: CashMachineBuy_3
   - first:
-      213: -5702676680708345649
-    second: Door Shop 1_4
-  - first:
-      213: 4067713347355656141
-    second: Door Shop 1_5
-  - first:
-      213: 9011371300438176180
-    second: Door Shop 1_6
-  - first:
-      213: 4980596812981179021
-    second: Door Shop 1_7
-  - first:
-      213: -2646076893678950060
-    second: Door Shop 1_8
-  - first:
-      213: -3610820286251719368
-    second: Door Shop 1_9
-  - first:
-      213: 8622940662401702900
-    second: Door Shop 1_10
-  - first:
-      213: -7899024119866436215
-    second: Door Shop 1_11
-  - first:
-      213: 5632803129527072410
-    second: Door Shop 1_12
-  - first:
-      213: 7011951484116798973
-    second: Door Shop 1_13
+      213: -3977961518043460663
+    second: CashMachineBuy_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -155,85 +128,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Door Shop 1_0
+      name: CashMachineBuy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372bdf9494e5661c0800000000000000
-      internalID: -4510814307897986445
+      spriteID: d93f37b595b97caf0800000000000000
+      internalID: -376161235773426787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop 1_1
+      name: CashMachineBuy_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41c0ee5264ad5b2b0800000000000000
-      internalID: -5569305369354826732
+      spriteID: 2f26742ab36411c90800000000000000
+      internalID: -7200897107249110286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop 1_2
+      name: CashMachineBuy_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954600e8627064d30800000000000000
-      internalID: 4415224346855892057
+      spriteID: 23c10e0a0b7626400800000000000000
+      internalID: 315928932180302898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door Shop 1_3
+      name: CashMachineBuy_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ae3f9425926a05d0800000000000000
-      internalID: -3095553401159729499
+      spriteID: 154d61747e155e8b0800000000000000
+      internalID: -5123598947292097455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CashMachineBuy_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb88d253117bc8c0800000000000000
+      internalID: -3977961518043460663
       vertices: []
       indices: 
       edges: []

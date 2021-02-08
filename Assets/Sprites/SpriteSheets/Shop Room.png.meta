@@ -1,19 +1,40 @@
 fileFormatVersion: 2
-guid: c244684f6d0d20842b52a36bf8b325a2
+guid: 790fd19a13f0a014cbd22b1154735247
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2487391181986388446
-    second: ShopKeeper Buy_0
+      213: 5063122100168533467
+    second: Shop Room_0
   - first:
-      213: 3803362934124790653
-    second: ShopKeeper Buy_1
+      213: 7446433349269452560
+    second: Shop Room_1
   - first:
-      213: -2966540490946816626
-    second: ShopKeeper Buy_2
+      213: 3274864069683298585
+    second: Shop Room_2
   - first:
-      213: 4713482568611636217
-    second: ShopKeeper Buy_3
+      213: 3374088756606980068
+    second: Shop Room_3
+  - first:
+      213: -893193849242274494
+    second: Shop Room_4
+  - first:
+      213: -4319378027945218465
+    second: Shop Room_5
+  - first:
+      213: -791693406530821365
+    second: Shop Room_6
+  - first:
+      213: -1360859311607035898
+    second: Shop Room_7
+  - first:
+      213: -4004987509578094180
+    second: Shop Room_8
+  - first:
+      213: 2587979386779131491
+    second: Shop Room_9
+  - first:
+      213: -9182407952396685581
+    second: Shop Room_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +65,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -125,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ShopKeeper Buy_0
+      name: Shop Room_0
       rect:
         serializedVersion: 2
         x: 0
@@ -139,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed9dcbbe91df48220800000000000000
-      internalID: 2487391181986388446
+      spriteID: bd5a9fa79b2d34640800000000000000
+      internalID: 5063122100168533467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShopKeeper Buy_1
+      name: Shop Room_1
       rect:
         serializedVersion: 2
         x: 64
@@ -160,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d734560007248c430800000000000000
-      internalID: 3803362934124790653
+      spriteID: 017f3d2adab075760800000000000000
+      internalID: 7446433349269452560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShopKeeper Buy_2
+      name: Shop Room_2
       rect:
         serializedVersion: 2
         x: 128
@@ -181,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e855d41142bb4d6d0800000000000000
-      internalID: -2966540490946816626
+      spriteID: 911c9293587a27d20800000000000000
+      internalID: 3274864069683298585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShopKeeper Buy_3
+      name: Shop Room_3
       rect:
         serializedVersion: 2
         x: 192
@@ -202,8 +223,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f3a71d4c67a96140800000000000000
-      internalID: 4713482568611636217
+      spriteID: 4efc232f8db23de20800000000000000
+      internalID: 3374088756606980068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b95c2decba93f0800000000000000
+      internalID: -893193849242274494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ea2b1919c7e04c0800000000000000
+      internalID: -4319378027945218465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0326b49a075305f0800000000000000
+      internalID: -791693406530821365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608416e8aa14d1de0800000000000000
+      internalID: -1360859311607035898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99a8b1541d6b68c0800000000000000
+      internalID: -4004987509578094180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed0036a895ae320800000000000000
+      internalID: 2587979386779131491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Room_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe6ca62e98819080800000000000000
+      internalID: -9182407952396685581
       vertices: []
       indices: 
       edges: []
