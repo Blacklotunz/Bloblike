@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3131573393288985588}
-  - component: {fileID: 4211025474687497380}
   - component: {fileID: 4642090666048738043}
+  - component: {fileID: 4211025474687497380}
   m_Layer: 13
   m_Name: FloorTile1
   m_TagString: Untagged
@@ -26,12 +26,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2274574487474019619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.43, y: -1.522203, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4642090666048738043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2274574487474019619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d5fe5de561b394cb012ce5e96ca973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -826867244096359525, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
+  - {fileID: -289915271158443142, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
+  - {fileID: 7153858456932023371, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
+  - {fileID: 7056111178046558079, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
+  - {fileID: 4690702313870918750, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
+  - {fileID: 121933931309277161, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
 --- !u!212 &4211025474687497380
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -83,22 +102,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4642090666048738043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2274574487474019619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d5fe5de561b394cb012ce5e96ca973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -826867244096359525, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
-  - {fileID: -289915271158443142, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
-  - {fileID: 7153858456932023371, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
-  - {fileID: 7056111178046558079, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
-  - {fileID: 4690702313870918750, guid: 5050eb901ce1f534bad3285533db9826, type: 3}
-  - {fileID: 121933931309277161, guid: 5050eb901ce1f534bad3285533db9826, type: 3}

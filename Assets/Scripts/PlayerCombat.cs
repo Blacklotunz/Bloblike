@@ -24,7 +24,9 @@ public class PlayerCombat : MonoBehaviour
         dead = false;
 
         healthCounters = GameObject.FindGameObjectsWithTag("Health Count");
-        healthCounters = healthCounters.OrderByDescending( e => e.name ).ToArray();   
+        healthCounters = healthCounters.OrderByDescending( e => e.name ).ToArray();
+
+        GameEvents.current.onPlayerHealthChange += PlayerHealthChange;
     }
 
     // Update is called once per frame
@@ -79,25 +81,6 @@ public class PlayerCombat : MonoBehaviour
         //play animation
         atkCooldown = timeBetweenAtk;
         animator.SetInteger("attackDirection", attackDirection);
-        
-       /* switch (attackDirection)
-        {
-            case 1:
-                attackPosition = new Vector3(transform.position.x + playerAtkOffset, transform.position.y + 0.3f, 1);
-                break;
-            case 2:
-                attackPosition = new Vector3(transform.position.x, transform.position.y - playerAtkOffset + .3f, 1);
-                break;
-            case 3:
-                attackPosition = new Vector3(transform.position.x - playerAtkOffset, transform.position.y + 0.3f, 1);
-                break;
-            case 4:
-                attackPosition = new Vector3(transform.position.x, transform.position.y + playerAtkOffset, 1);
-                break;
-            default:
-                attackPosition = new Vector3(transform.position.x, transform.position.y, 1);
-                break;
-        }*/
     }
 
     public void TakeDamage(int dmg)
@@ -107,14 +90,51 @@ public class PlayerCombat : MonoBehaviour
             animator.SetTrigger("damage");
             cameraControl.CameraShake(0f);
             health -= dmg;
+            UpdateHealthCounters(-dmg);
+        }
+    }
 
-            for (int i = 0; i < healthCounters.Length; i++)
+    public void PlayerHealthChange(int delta)
+    {
+        if (delta < 0)
+        {
+            TakeDamage(delta);
+        }
+        else
+        {
+            health += delta;
+            UpdateHealthCounters(delta);
+        }
+
+    }
+
+    void UpdateHealthCounters(int healthDelta)
+    {
+        int absHealthDelta = Mathf.Abs(healthDelta);
+        for (int j = absHealthDelta; j >= 0; j--)
+        {
+            if (healthDelta < 0)
             {
-                Animator hca = healthCounters[i].GetComponent<Animator>();
-                if (!hca.GetCurrentAnimatorStateInfo(0).IsName("life_count_empty"))
+                for (int i = 0; i < healthCounters.Length; i++)
                 {
-                    hca.SetTrigger("loseHealth");
-                    break;
+                    Animator hca = healthCounters[i].GetComponent<Animator>();
+                    if (!hca.GetCurrentAnimatorStateInfo(0).IsName("life_count_empty"))
+                    {
+                        hca.SetTrigger("loseHealth");
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                for (int i = healthCounters.Length-1; i >= 0; i--)
+                {
+                    Animator hca = healthCounters[i].GetComponent<Animator>();
+                    if (!hca.GetCurrentAnimatorStateInfo(0).IsName("life_count_full"))
+                    {
+                        hca.SetTrigger("gainHealth");
+                        break;
+                    }
                 }
             }
         }
@@ -134,9 +154,9 @@ public class PlayerCombat : MonoBehaviour
         GameEvents.current.PlayerDie();
     }
 
-/*    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(attackPosition, new Vector3(xRange, yRange, 1));
-    }*/
+    /*    private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireCube(attackPosition, new Vector3(xRange, yRange, 1));
+        }*/
 }

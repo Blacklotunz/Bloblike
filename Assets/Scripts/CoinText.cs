@@ -1,15 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 public class CoinText : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI coinCounter;
+    public static TMPro.TextMeshProUGUI coinCounter;
     // Start is called before the first frame update
     void Start()
     {
         GameEvents.current.onCoinCollected += CoinCollected;
+        GameEvents.current.onPlayerBuyItem += CoinsSpent;
         coinCounter = this.GetComponent<TMPro.TextMeshProUGUI>();
+    }
+
+    private void CoinsSpent(int cost)
+    {
+        int count = (int.Parse(coinCounter.text)) - cost;
+        coinCounter.text = count.ToString();
     }
 
     void CoinCollected()

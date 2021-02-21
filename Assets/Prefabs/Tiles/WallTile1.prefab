@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 749954463327292136}
-  - component: {fileID: -1410596200662530864}
   - component: {fileID: -649739058690593301}
+  - component: {fileID: -1410596200662530864}
   - component: {fileID: 4423405912549492001}
   m_Layer: 13
   m_Name: WallTile1
@@ -27,12 +27,36 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4507297857586621503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.85, y: -12.61, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-649739058690593301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4507297857586621503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ba743131b76d74db8cfda32accbc16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: -6377589984194675939, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 531579327602612067, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 7059888417610009144, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: -7488127054751113580, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 4396510240158620976, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 5735300154803012080, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  corners:
+  - {fileID: 4150381387342547264, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 5216191247813679839, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: 4912688928643644153, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
+  - {fileID: -4671296709597485573, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
 --- !u!212 &-1410596200662530864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -84,30 +108,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-649739058690593301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4507297857586621503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14ba743131b76d74db8cfda32accbc16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walls:
-  - {fileID: -6377589984194675939, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 531579327602612067, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 7059888417610009144, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: -7488127054751113580, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 4396510240158620976, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 5735300154803012080, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  corners:
-  - {fileID: 4150381387342547264, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 5216191247813679839, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: 4912688928643644153, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
-  - {fileID: -4671296709597485573, guid: 86eaa79f2b83a7747865b0759091b5fc, type: 3}
 --- !u!61 &4423405912549492001
 BoxCollider2D:
   m_ObjectHideFlags: 0

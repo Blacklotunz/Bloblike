@@ -13,7 +13,7 @@ public class GameEvents : MonoBehaviour
     public event Action onPlayerDie;
     public void PlayerDie()
     {
-        if (null != onPlayerDie)
+        if (onPlayerDie != null)
         {
             onPlayerDie();
         }
@@ -27,4 +27,24 @@ public class GameEvents : MonoBehaviour
             onCoinCollected();
         }
     }
+
+    public event Action<int> onPlayerHealthChange;
+    public void PlayerHealthChange(int health)
+    {
+        if(onPlayerHealthChange != null)
+        {
+            onPlayerHealthChange(health);
+        }
+    }
+
+
+    public event Action<int> onPlayerBuyItem;
+    internal void PlayerBuyItem(int cost)
+    {
+        if (onPlayerBuyItem != null)
+        {
+            onPlayerBuyItem(cost);
+        }
+    }
+
 }

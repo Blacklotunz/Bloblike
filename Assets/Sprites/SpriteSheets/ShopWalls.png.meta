@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: 2952c33b8b495ea4da029f973ecb5a7f
+guid: 1a01f90a40fa14e449777c23babbdeb0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2066188200344418693
-    second: Crates_0
+      213: 6649788535935448153
+    second: ShopWalls_0
   - first:
-      213: -5494983281948140313
-    second: Crates_1
+      213: -9176457185953081940
+    second: ShopWalls_1
   - first:
-      213: 8145770697738668048
-    second: Crates_2
+      213: -1441195570370813473
+    second: ShopWalls_2
+  - first:
+      213: 8353029483483194936
+    second: ShopWalls_3
+  - first:
+      213: 1377059023456026270
+    second: ShopWalls_4
+  - first:
+      213: 8176786210706513454
+    second: ShopWalls_5
+  - first:
+      213: 5740295815662387426
+    second: ShopWalls_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Crates_0
+      name: ShopWalls_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589f1a898339cac10800000000000000
-      internalID: 2066188200344418693
+      spriteID: 954b5ebf07bc84c50800000000000000
+      internalID: 6649788535935448153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crates_1
+      name: ShopWalls_1
       rect:
         serializedVersion: 2
         x: 64
@@ -157,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ec55c891d5edb3b0800000000000000
-      internalID: -5494983281948140313
+      spriteID: ca59faeeecca6a080800000000000000
+      internalID: -9176457185953081940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crates_2
+      name: ShopWalls_2
       rect:
         serializedVersion: 2
         x: 128
@@ -178,8 +190,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 018cf7c9a479b0170800000000000000
-      internalID: 8145770697738668048
+      spriteID: fd16e28b348dffbe0800000000000000
+      internalID: -1441195570370813473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopWalls_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83661691f0cebe370800000000000000
+      internalID: 8353029483483194936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopWalls_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eb7d7c2eb4c1310800000000000000
+      internalID: 1377059023456026270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopWalls_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e59757cb7c97170800000000000000
+      internalID: 8176786210706513454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopWalls_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0c73681a0a9af40800000000000000
+      internalID: 5740295815662387426
       vertices: []
       indices: 
       edges: []
