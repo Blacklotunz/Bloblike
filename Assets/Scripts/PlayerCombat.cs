@@ -143,6 +143,7 @@ public class PlayerCombat : MonoBehaviour
     void Die()
     {
         dead = true;
+        animator.SetInteger("attackDirection", 0);
         animator.SetTrigger("dead");
         this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         this.GetComponent<Rigidbody2D>().isKinematic = true;

@@ -140,6 +140,7 @@ public class EnemyController : MonoBehaviour
     {
         dead = true;
         //Freeze all positions
+        attackDirection = 0;
         animator.SetTrigger("dead");
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         this.GetComponent<Collider2D>().enabled = false;
