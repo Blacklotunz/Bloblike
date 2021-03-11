@@ -111,16 +111,16 @@ public class PlayerCombat : MonoBehaviour
     void UpdateHealthCounters(int healthDelta)
     {
         int absHealthDelta = Mathf.Abs(healthDelta);
-        for (int j = absHealthDelta; j >= 0; j--)
+        for (int j = absHealthDelta; j > 0; j--)
         {
             if (healthDelta < 0)
             {
                 for (int i = 0; i < healthCounters.Length; i++)
                 {
-                    Animator hca = healthCounters[i].GetComponent<Animator>();
-                    if (!hca.GetCurrentAnimatorStateInfo(0).IsName("life_count_empty"))
+                    HealthCount hc = healthCounters[i].GetComponent<HealthCount>();
+                    if (hc.getHealthLevel() > 0)
                     {
-                        hca.SetTrigger("loseHealth");
+                        hc.decrease();
                         break;
                     }
                 }
@@ -129,10 +129,10 @@ public class PlayerCombat : MonoBehaviour
             {
                 for (int i = healthCounters.Length-1; i >= 0; i--)
                 {
-                    Animator hca = healthCounters[i].GetComponent<Animator>();
-                    if (!hca.GetCurrentAnimatorStateInfo(0).IsName("life_count_full"))
+                    HealthCount hc = healthCounters[i].GetComponent<HealthCount>();
+                    if (hc.getHealthLevel() < hc.maxHealthLevel )
                     {
-                        hca.SetTrigger("gainHealth");
+                        hc.increase();
                         break;
                     }
                 }

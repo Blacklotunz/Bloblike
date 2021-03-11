@@ -1389,6 +1389,10 @@ PrefabInstance:
       propertyPath: gameOverMenuUI
       value: 
       objectReference: {fileID: 942643518}
+    - target: {fileID: 4406656623311113682, guid: b1fbe58505397dc4699c823481a0a4c9, type: 3}
+      propertyPath: maxHealthLevel
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8419022533078780928, guid: b1fbe58505397dc4699c823481a0a4c9, type: 3}
       propertyPath: m_Name
       value: UI

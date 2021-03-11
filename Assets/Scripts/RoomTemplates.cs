@@ -17,7 +17,7 @@ public class RoomTemplates : MonoBehaviour
         bossSpawned = false;
         playerSpawned = false;
 
-        Invoke("RecreateLevel", 1f);
+        Invoke("RecreateLevel", 2f);
         
     }
 
@@ -29,7 +29,6 @@ public class RoomTemplates : MonoBehaviour
             playerSpawned = true;
             GameObject lastRoom = LevelMap.GetLastRoom();
 
-
             EnemyCombat[] enemies = lastRoom.GetComponentsInChildren<EnemyCombat>();
             foreach(EnemyCombat enemy in enemies)
             {
@@ -37,7 +36,7 @@ public class RoomTemplates : MonoBehaviour
             }
             lastRoom.GetComponent<RoomController>().roomCleared = true;
             lastRoom.GetComponent<RoomController>().enemySpawned = true;
-            Instantiate(player, lastRoom.transform.position + new Vector3(3f,2f,0f) , Quaternion.identity); 
+            Instantiate(player, lastRoom.transform.position + new Vector3(3f,2f,0f) , Quaternion.identity);
         }
     }
 

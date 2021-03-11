@@ -8,9 +8,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: loseHealth
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: healthLevel
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3858051826477664164}
   m_Solo: 0
@@ -33,9 +33,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: loseHealth
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: healthLevel
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4686727037008004939}
   m_Solo: 0
@@ -86,14 +86,8 @@ AnimatorController:
   m_Name: Life Counter
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: loseHealth
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: gainHealth
-    m_Type: 9
+  - m_Name: healthLevel
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -119,8 +113,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: gainHealth
+  - m_ConditionMode: 3
+    m_ConditionEvent: healthLevel
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3858051826477664164}
@@ -172,9 +166,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: gainHealth
-    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: healthLevel
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4268540865107379525}
   m_Solo: 0

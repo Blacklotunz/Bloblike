@@ -25,39 +25,38 @@ public class RoomSpawner : MonoBehaviour
 
     void Spawn()
     {
-        if (templates.roomLeft > 0)
+        if (templates.roomLeft <= 0)
         {
-            spawned = true;
-            templates.roomLeft--;
-            GameObject nextRoom;
+            RemoveDoor();
+            return;
+        } 
+        spawned = true;
+        templates.roomLeft--;
+        GameObject nextRoom = null;
+        bool roomAdded = false;
+        while (!roomAdded)
+        {
             switch (this.openingPoint)
             {
                 case 1:
                     rand = Random.Range(0, templates.RRooms.Length);
-                    nextRoom = Instantiate(templates.RRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity);
-                    LevelMap.AddRoom(nextRoom.name, nextRoom);
+                    nextRoom = Instantiate(templates.RRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity); 
                     break;
-                case 2:
+                case 2:       
                     rand = Random.Range(0, templates.BRooms.Length);
                     nextRoom = Instantiate(templates.BRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity);
-                    LevelMap.AddRoom(nextRoom.name, nextRoom);
                     break;
-                case 3:
+                case 3:   
                     rand = Random.Range(0, templates.LRooms.Length);
                     nextRoom = Instantiate(templates.LRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity);
-                    LevelMap.AddRoom(nextRoom.name, nextRoom);
                     break;
                 case 4:
                     rand = Random.Range(0, templates.TRooms.Length);
                     nextRoom = Instantiate(templates.TRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity);
-                    LevelMap.AddRoom(nextRoom.name, nextRoom);
                     break;
             }
-            
-        }else
-        {
-            RemoveDoor();
-        }
+            roomAdded = LevelMap.AddRoom(nextRoom.name, nextRoom);
+        }      
     }
 
     public void RemoveDoor()
