@@ -14,7 +14,7 @@ public class AnimatorCombat : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        EnemyController ec = animator.GetComponent<EnemyController>();
+        EnemyAI ec = animator.GetComponentInParent<EnemyAI>();
         if (ec.dead) return;
         Collider2D[] enemiesToDmg = Physics2D.OverlapBoxAll(ec.getAttackPosition(), new Vector2(ec.atkRangeX, ec.atkRangeY), 0, ec.Damageble);
         foreach (Collider2D enemy in enemiesToDmg)

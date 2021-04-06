@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7009645934493185999}
   - component: {fileID: 1811844592779011852}
   - component: {fileID: 6768175134586176541}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ShopDoor T
   m_TagString: Door
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}

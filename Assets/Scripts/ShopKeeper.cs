@@ -8,13 +8,13 @@ public class ShopKeeper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameEvents.current.onPlayerBuyItem += PlayBuyAnimation;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void PlayBuyAnimation(int cost)
     {
-        
+        this.GetComponent<Animator>().SetTrigger("buy");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

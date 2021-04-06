@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8014732914468236055}
   - component: {fileID: 5456505525394340812}
   - component: {fileID: 3429990730574774977}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BossDoor L
   m_TagString: Door
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -199,7 +199,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2041125503
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 9080542845408215082, guid: d8dca9cb1e1fd9241b6a9b3a0fb424eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -10,6 +10,7 @@ public class RoomTemplates : MonoBehaviour
     public GameObject bossRoom, player;
     public static bool bossSpawned, playerSpawned;
     public int numOfRooms, roomLeft;
+    AstarPath pathfinder;
 
     public void Start()
     {
@@ -18,6 +19,7 @@ public class RoomTemplates : MonoBehaviour
         playerSpawned = false;
 
         Invoke("RecreateLevel", 2f);
+        pathfinder = GameObject.FindObjectOfType<AstarPath>();
         
     }
 
@@ -37,6 +39,15 @@ public class RoomTemplates : MonoBehaviour
             lastRoom.GetComponent<RoomController>().roomCleared = true;
             lastRoom.GetComponent<RoomController>().enemySpawned = true;
             Instantiate(player, lastRoom.transform.position + new Vector3(3f,2f,0f) , Quaternion.identity);
+            Invoke("UpdateGraphMap", 3f);
+        }
+    }
+
+    void UpdateGraphMap()
+    {
+        if (pathfinder)
+        {
+            pathfinder.Scan();
         }
     }
 

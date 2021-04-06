@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class RoomController : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class RoomController : MonoBehaviour
     public LevelTemplate levelTemplate;
     private List<GameObject> roomTiles, roomDoors;
     public bool enemySpawned, roomCleared;
-    
+    private AstarPath pathfinder;
+
     void Start(){
         levelTemplate = FindObjectOfType<LevelTemplate>(); 
         roomTiles = new List<GameObject>();
@@ -29,6 +31,23 @@ public class RoomController : MonoBehaviour
         OpenDoors(true);
     }
 
+
+    void PathfinderUpdate()
+    {
+        Collider2D roomCollider = GetComponent<Collider2D>();
+        if (!roomCollider)
+        {
+            Debug.Log("No collider found");
+            return;
+        }
+        var bounds = roomCollider.bounds;
+        // Expand the bounds along the Z axis
+        bounds.Expand(Vector3.forward * 1000);
+        var guo = new GraphUpdateObject(bounds);
+        // change some settings on the object
+        AstarPath.active.UpdateGraphs(guo);
+    }
+
     void Update()
     {
         if(numOfEnemies == 0)
@@ -43,6 +62,8 @@ public class RoomController : MonoBehaviour
         if (!this.roomCleared && collision.CompareTag("Player") && !enemySpawned)
         {
             Spawn();
+            pathfinder = this.GetComponentInChildren<AstarPath>();
+            if(pathfinder) PathfinderUpdate();
         }
 
         //checks whether the adjacent room has compatible door otherwhise remove it also remove the spawn point to avoid room stacking on eachother
@@ -98,7 +119,8 @@ public class RoomController : MonoBehaviour
         for (int i = numOfEnemies; i > 0; i--)
         {   
             GameObject enemyToSpawn = levelTemplate.Enemies[Random.Range(0, levelTemplate.Enemies.Length - 1)];
-            enemyToSpawn.GetComponent<EnemyController>().roomReference = this;
+            enemyToSpawn.GetComponent<EnemyAI>().roomReference = this;
+            //enemyToSpawn.SendMessage("SetRoomReference", this);
             Instantiate(enemyToSpawn, roomTiles[Random.Range(0, roomTiles.Count - 1)].transform.position, Quaternion.identity);
         }
         enemySpawned = true;

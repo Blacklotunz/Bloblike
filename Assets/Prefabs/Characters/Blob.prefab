@@ -200,7 +200,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  coinCounter: {fileID: 0}
   attackPos: {fileID: 3890369987695784154}
   animator: {fileID: 0}
   Damageble:

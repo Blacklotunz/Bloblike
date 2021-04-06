@@ -12,8 +12,13 @@ public class CashyScript : MonoBehaviour
     void Start()
     {
         conversation = this.GetComponent<NPCConversation>();
+        GameEvents.current.onPlayerBuyItem += PlayBuyAnimation;
     }
 
+    private void PlayBuyAnimation(int cost)
+    {
+        this.GetComponent<Animator>()?.SetTrigger("buy");
+    }
 
     public void getMoney(bool enoughMoney)
     {

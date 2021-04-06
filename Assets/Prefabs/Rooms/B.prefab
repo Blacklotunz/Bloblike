@@ -9643,6 +9643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numOfEnemies: 0
   levelTemplate: {fileID: 0}
+  enemySpawned: 0
+  roomCleared: 0
 --- !u!1 &9220454819509560566
 GameObject:
   m_ObjectHideFlags: 0

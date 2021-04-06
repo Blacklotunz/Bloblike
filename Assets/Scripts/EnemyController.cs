@@ -31,10 +31,9 @@ public class EnemyController : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player");
     }
 
-
     void Update()
     {
-       
+        return;
         if (health <= 0) return;
 
         heading = target.transform.position - transform.position;

@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 881929648628933343}
   - component: {fileID: 881929648628933340}
   - component: {fileID: 8712908959417234434}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (22)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 881929648907956363}
   - component: {fileID: 881929648907956360}
   - component: {fileID: 6360977813999890168}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (31)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1213,7 +1213,7 @@ GameObject:
   - component: {fileID: 881929649156045801}
   - component: {fileID: 881929649156045806}
   - component: {fileID: 2157338362776501231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (13)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 881929649474259540}
   - component: {fileID: 881929649474259545}
   - component: {fileID: 6475863311504120484}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (36)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2088,7 +2088,7 @@ GameObject:
   - component: {fileID: 8490196628839023010}
   - component: {fileID: 4210334904473951241}
   - component: {fileID: 6941286879840701593}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (27)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 3026703615137715292}
   - component: {fileID: 7835873711434690878}
   - component: {fileID: 569351670468725660}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (39)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3864,7 +3864,7 @@ GameObject:
   - component: {fileID: 1152474485005000210}
   - component: {fileID: 5546916507554711998}
   - component: {fileID: 5250523456918635906}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (38)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5341,7 +5341,7 @@ GameObject:
   - component: {fileID: 9156778736522532098}
   - component: {fileID: 8537274956447762792}
   - component: {fileID: 6623422213877356617}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (40)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5696,7 +5696,7 @@ GameObject:
   - component: {fileID: 5904131493285359105}
   - component: {fileID: 4998413836595247205}
   - component: {fileID: 13834188311213876}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (14)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -7527,7 +7527,7 @@ GameObject:
   - component: {fileID: 6010532203398209235}
   - component: {fileID: 1881670626696069577}
   - component: {fileID: 4806417837712363407}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (23)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -7636,7 +7636,7 @@ GameObject:
   - component: {fileID: 4212396219749692427}
   - component: {fileID: 8390346182909749165}
   - component: {fileID: 678561324962869146}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (42)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -8237,7 +8237,7 @@ GameObject:
   - component: {fileID: 6574327719523753605}
   - component: {fileID: 8512489811060681708}
   - component: {fileID: 5464632818367855297}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (37)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -8428,7 +8428,7 @@ GameObject:
   - component: {fileID: 7708214564481683206}
   - component: {fileID: 2707353239586180933}
   - component: {fileID: 1962735217629855119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (41)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -8701,7 +8701,7 @@ GameObject:
   - component: {fileID: 8822585250156134871}
   - component: {fileID: 6308729465857936523}
   - component: {fileID: 5984921670503008523}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (18)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -8892,7 +8892,7 @@ GameObject:
   - component: {fileID: 6674893463885306025}
   - component: {fileID: 6674893463885306027}
   - component: {fileID: 2236554970596173129}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (12)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9001,7 +9001,7 @@ GameObject:
   - component: {fileID: 6674893463892812296}
   - component: {fileID: 6674893463892812298}
   - component: {fileID: 3121131024596799294}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: corner
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9191,7 +9191,7 @@ GameObject:
   - component: {fileID: 6674893463955248758}
   - component: {fileID: 6674893463955248760}
   - component: {fileID: 8464268519414649898}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9300,7 +9300,7 @@ GameObject:
   - component: {fileID: 6674893463966061012}
   - component: {fileID: 6674893463966061014}
   - component: {fileID: 7303543179029530119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: corner
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9409,7 +9409,7 @@ GameObject:
   - component: {fileID: 6674893464067651099}
   - component: {fileID: 6674893464067651101}
   - component: {fileID: 3893609675915422865}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (25)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9518,7 +9518,7 @@ GameObject:
   - component: {fileID: 6674893464145261176}
   - component: {fileID: 6674893464145261178}
   - component: {fileID: 4815379826928562841}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (8)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9627,7 +9627,7 @@ GameObject:
   - component: {fileID: 6674893464203261798}
   - component: {fileID: 6674893464203261800}
   - component: {fileID: 5580412785962935839}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (30)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9736,7 +9736,7 @@ GameObject:
   - component: {fileID: 6674893464216560071}
   - component: {fileID: 6674893464216560073}
   - component: {fileID: 7516546641328597815}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (15)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9845,7 +9845,7 @@ GameObject:
   - component: {fileID: 6674893464387175646}
   - component: {fileID: 6674893464387175616}
   - component: {fileID: 4454436472639819805}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (11)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -9954,7 +9954,7 @@ GameObject:
   - component: {fileID: 6674893464460782303}
   - component: {fileID: 6674893464460782273}
   - component: {fileID: 8677144822751953679}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: corner
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10063,7 +10063,7 @@ GameObject:
   - component: {fileID: 6674893464583860333}
   - component: {fileID: 6674893464583860335}
   - component: {fileID: 8190849191860024767}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (24)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10172,7 +10172,7 @@ GameObject:
   - component: {fileID: 6674893464638738291}
   - component: {fileID: 6674893464638738293}
   - component: {fileID: 1394306364099985847}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (21)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10281,7 +10281,7 @@ GameObject:
   - component: {fileID: 6674893464682932663}
   - component: {fileID: 6674893464682932665}
   - component: {fileID: 2906984333260946736}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (10)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10390,7 +10390,7 @@ GameObject:
   - component: {fileID: 6674893464692928237}
   - component: {fileID: 6674893464692928239}
   - component: {fileID: 1289999378480079068}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (19)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10499,7 +10499,7 @@ GameObject:
   - component: {fileID: 6674893464716513768}
   - component: {fileID: 6674893464716513770}
   - component: {fileID: 547114697597334400}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (6)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10606,7 +10606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6674893464716992975}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10686,7 +10686,7 @@ GameObject:
   - component: {fileID: 6674893464783718426}
   - component: {fileID: 6674893464783718428}
   - component: {fileID: 6241428381362250794}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (26)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10795,7 +10795,7 @@ GameObject:
   - component: {fileID: 6674893464834531975}
   - component: {fileID: 6674893464834531977}
   - component: {fileID: 7933044815979676119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (35)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10904,7 +10904,7 @@ GameObject:
   - component: {fileID: 6674893464973869875}
   - component: {fileID: 6674893464973869877}
   - component: {fileID: 3276698984377300019}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (29)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11013,7 +11013,7 @@ GameObject:
   - component: {fileID: 6674893465109132415}
   - component: {fileID: 6674893465109132385}
   - component: {fileID: 3107941610913991062}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (33)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11122,7 +11122,7 @@ GameObject:
   - component: {fileID: 6674893465117372051}
   - component: {fileID: 6674893465117372053}
   - component: {fileID: 5528980441275193481}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (2)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11231,7 +11231,7 @@ GameObject:
   - component: {fileID: 6674893465252364917}
   - component: {fileID: 6674893465252364919}
   - component: {fileID: 2957227475750729143}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (3)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11340,7 +11340,7 @@ GameObject:
   - component: {fileID: 6674893465359107170}
   - component: {fileID: 6674893465359107172}
   - component: {fileID: 4910004680142154148}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (28)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11449,7 +11449,7 @@ GameObject:
   - component: {fileID: 6674893465414741483}
   - component: {fileID: 6674893465414741485}
   - component: {fileID: 2597516687320660306}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (20)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11558,7 +11558,7 @@ GameObject:
   - component: {fileID: 6674893465521180707}
   - component: {fileID: 6674893465521180709}
   - component: {fileID: 8413229418785482125}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (34)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11667,7 +11667,7 @@ GameObject:
   - component: {fileID: 6674893465611120826}
   - component: {fileID: 6674893465611120828}
   - component: {fileID: 5625453024862443294}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (17)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11776,7 +11776,7 @@ GameObject:
   - component: {fileID: 6674893465688572143}
   - component: {fileID: 6674893465688572177}
   - component: {fileID: 6909853258176668405}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (16)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11885,7 +11885,7 @@ GameObject:
   - component: {fileID: 6674893465740695095}
   - component: {fileID: 6674893465740695097}
   - component: {fileID: 5307673459890923628}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (7)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -11994,7 +11994,7 @@ GameObject:
   - component: {fileID: 6674893465914936832}
   - component: {fileID: 6674893465914936834}
   - component: {fileID: 444607953413610098}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: corner
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -12431,7 +12431,7 @@ GameObject:
   - component: {fileID: 5123202691408518092}
   - component: {fileID: 8920644384248417026}
   - component: {fileID: 6381460119586157186}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (32)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -13360,7 +13360,7 @@ GameObject:
   - component: {fileID: 4869382559835957816}
   - component: {fileID: 5970845879393349196}
   - component: {fileID: 9168994642319794145}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sprite (43)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -14045,7 +14045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 128718064588563043, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
       propertyPath: json
-      value: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":90.79999,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"Cashing!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Cashy","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":1,"Volume":0}]}'
+      value: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":22.5,"yPos":50},"ID":0,"TMPFontGUID":null,"Text":"Caching!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Cashy","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":1,"Volume":0}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 128718064588563043, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -14149,6 +14149,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3590990068447851844, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4423249791538211385, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13
@@ -14197,10 +14201,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopDoor R
       objectReference: {fileID: 0}
+    - target: {fileID: 6716098412008089843, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8924250563114087398, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
       propertyPath: replacementWall
       value: 
       objectReference: {fileID: 5776593791423411528}
+    - target: {fileID: 9110337112325811853, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c2f8db4094e2734199dbfb99f79b065, type: 3}
 --- !u!4 &3921551930460672988 stripped
@@ -14341,9 +14353,21 @@ PrefabInstance:
       propertyPath: replacementWall
       value: 
       objectReference: {fileID: 6624262923803327488}
+    - target: {fileID: 6308314810860061634, guid: f0b2e88248e4ff2468618bf7bd06c135, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6993174912381996038, guid: f0b2e88248e4ff2468618bf7bd06c135, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8276538482179209132, guid: f0b2e88248e4ff2468618bf7bd06c135, type: 3}
       propertyPath: m_Name
       value: ShopDoor B
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276538482179209132, guid: f0b2e88248e4ff2468618bf7bd06c135, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0b2e88248e4ff2468618bf7bd06c135, type: 3}
@@ -14362,6 +14386,14 @@ PrefabInstance:
     - target: {fileID: 1285957022881977044, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
       propertyPath: m_Name
       value: ShopDoor L
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285957022881977044, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532458466971114067, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3797367425849100088, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
       propertyPath: replacementWall
@@ -14410,6 +14442,10 @@ PrefabInstance:
     - target: {fileID: 3825390826003260975, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168587230105210, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7601039459852490526, guid: 11e5c96c225f08a4b8fb8f25c11e6c3f, type: 3}
       propertyPath: m_Size.x
@@ -14553,9 +14589,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8668618452488847491, guid: 280438ad0c5193d4598b4cc4fdacf856, type: 3}
       propertyPath: json
-      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-19.5,"yPos":229},"ID":1,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[0,5,5],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":210.5,"yPos":233},"ID":2,"TMPFontGUID":null,"Text":"No","parentUIDs":[0,5,5],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":101.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"Hello
-        my friend.. Wuff!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":5,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":71.5,"yPos":326},"ID":3,"TMPFontGUID":null,"Text":"Pick
-        your choice...","parentUIDs":[1,1],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":[],"SpeechUID":4,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":73,"yPos":444},"ID":4,"TMPFontGUID":null,"Text":"Arf!","parentUIDs":[3,3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":96,"yPos":130},"ID":5,"TMPFontGUID":null,"Text":"Do
+      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-102.5,"yPos":229},"ID":1,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[0,5,5],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":127.5,"yPos":233},"ID":2,"TMPFontGUID":null,"Text":"No","parentUIDs":[0,5,5],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":18.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"Hello
+        my friend.. Wuff!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":5,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-11.5,"yPos":326},"ID":3,"TMPFontGUID":null,"Text":"Pick
+        your choice...","parentUIDs":[1,1],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":[],"SpeechUID":4,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-10,"yPos":444},"ID":4,"TMPFontGUID":null,"Text":"Arf!","parentUIDs":[3,3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":13,"yPos":130},"ID":5,"TMPFontGUID":null,"Text":"Do
         you want to buy something?","parentUIDs":[0,0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[1,2],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0}]}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14690,13 +14726,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4053124515022783646, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5461868800502744919, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
       propertyPath: replacementWall
       value: 
       objectReference: {fileID: 6674893463955248759}
+    - target: {fileID: 5655203312111393340, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8805574292648705982, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
       propertyPath: m_Name
       value: ShopDoor T
+      objectReference: {fileID: 0}
+    - target: {fileID: 8805574292648705982, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9c7b8cdcf2c4264a9a0cb27430599ca, type: 3}
