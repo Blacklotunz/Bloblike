@@ -17,7 +17,7 @@ public class CashyScript : MonoBehaviour
 
     private void PlayBuyAnimation(int cost)
     {
-        this.GetComponent<Animator>()?.SetTrigger("buy");
+        //this.GetComponent<Animator>()?.SetTrigger("buy");
     }
 
     public void getMoney(bool enoughMoney)

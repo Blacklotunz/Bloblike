@@ -28,8 +28,7 @@ public class PlayerAnimatorCombat : StateMachineBehaviour
         {
             enemy.GetComponent<EnemyController>().TakeDamage(pc.dmg);
         }*/
-
-
+        animator.speed = 1;
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

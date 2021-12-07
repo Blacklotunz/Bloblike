@@ -48,7 +48,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.1
-  m_LinearDrag: 1
+  m_LinearDrag: 2
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
   attackPosition: {x: 0, y: 0, z: 0}
   health: 3
   dmg: 1
-  speed: 10
+  speed: 40
   nextWayPointDistance: 1
   attackOffset: 0
   atkRangeX: 1

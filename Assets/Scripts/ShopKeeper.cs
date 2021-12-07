@@ -5,11 +5,9 @@ using DialogueEditor;
 
 public class ShopKeeper : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         GameEvents.current.onPlayerBuyItem += PlayBuyAnimation;
-
     }
 
     private void PlayBuyAnimation(int cost)

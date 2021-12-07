@@ -6,13 +6,13 @@ public class ChestLoot : MonoBehaviour
 {
     public GameObject[] loot;
     public float lootRange, lootSpawnTimer, openingTimer;
-    private float lootSpawnTime;
+    //private float lootSpawnTime;
     public bool spawn;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        lootSpawnTimer = lootSpawnTime;
+        //lootSpawnTimer = lootSpawnTime;
         animator = this.GetComponent<Animator>();
         Invoke("Spawn", openingTimer);
     }
@@ -31,7 +31,7 @@ public class ChestLoot : MonoBehaviour
 
     void SpawnLoot()
     {
-        lootSpawnTimer = lootSpawnTime;
+        //lootSpawnTimer = lootSpawnTime;
         GameObject lootItem = Instantiate(loot[Random.Range(0, loot.Length)], transform.position, Quaternion.identity);
         //lootItem.GetComponent<Rigidbody2D>().AddForce(Random.insideUnitCircle * lootForce);
         lootItem.GetComponent<TargetJoint2D>().target = new Vector2(transform.position.x, transform.position.y) + (Random.insideUnitCircle * lootRange);

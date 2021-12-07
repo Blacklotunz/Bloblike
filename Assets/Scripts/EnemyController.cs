@@ -33,7 +33,6 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        return;
         if (health <= 0) return;
 
         heading = target.transform.position - transform.position;

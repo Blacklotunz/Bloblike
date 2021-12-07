@@ -24,7 +24,7 @@ public class EnemyAI : MonoBehaviour
     Path path;
     Rigidbody2D rb;
     int currentWaypoint=0;
-    bool reachedEndOfPath;
+    //bool reachedEndOfPath;
 
     void Start()
     {
@@ -103,7 +103,7 @@ public class EnemyAI : MonoBehaviour
 
         if (currentWaypoint >= path.vectorPath.Count)
         {
-            reachedEndOfPath = true;
+            //reachedEndOfPath = true;
             if (attackCooldown > 0) //wait attack cooldown
             {
                 animator.SetInteger("attackDirection", -1);
@@ -148,7 +148,7 @@ public class EnemyAI : MonoBehaviour
         }
         else
         {
-            reachedEndOfPath = false;
+            //reachedEndOfPath = false;
         }
 
         direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;

@@ -14045,7 +14045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 128718064588563043, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
       propertyPath: json
-      value: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":22.5,"yPos":50},"ID":0,"TMPFontGUID":null,"Text":"Caching!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Cashy","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":1,"Volume":0}]}'
+      value: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":70.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"Caching!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Cashy","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":1,"Volume":0}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 128718064588563043, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -14118,22 +14118,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
+--- !u!1 &7807672348406309620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7718046245390574962, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
+  m_PrefabInstance: {fileID: 524227942431000454}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5225142632153665483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5748001613879691341, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
   m_PrefabInstance: {fileID: 524227942431000454}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2832346822738421449 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2308353076348100943, guid: ef56f49099693724c8a9121291ab7f36, type: 3}
-  m_PrefabInstance: {fileID: 524227942431000454}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13657bbcd0aa77d44b6a00b8bf83de4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &796764348435380709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14278,13 +14272,99 @@ PrefabInstance:
     - target: {fileID: 2932921238482002232, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2832346822738421449}
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932921238482002232, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932921238482002232, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932921238482002232, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: json
+      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-63.0999756,"yPos":279},"ID":2,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[1,1],"SpeechUID":4},{"EditorInfo":{"isRoot":false,"xPos":151.900024,"yPos":281},"ID":3,"TMPFontGUID":null,"Text":"No","parentUIDs":[1,1],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":21.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"A
+        vial full of goo","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":18.9000244,"yPos":141},"ID":1,"TMPFontGUID":null,"Text":"It
+        wil cost you 5 coins. Do you want to buy it?","parentUIDs":[0,0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[2,3],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-59.0999756,"yPos":361},"ID":4,"TMPFontGUID":null,"Text":"Uhmm
+        let''s see...","parentUIDs":[2,2],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0.5,"Volume":0}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CashyScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6524006854269042110}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ShopTableScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425121224248834094, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5525236210400730766, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
       propertyPath: cashy
       value: 
-      objectReference: {fileID: 2832346822738421449}
+      objectReference: {fileID: 7807672348406309620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+--- !u!114 &6524006854269042110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5525236210400730766, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
+  m_PrefabInstance: {fileID: 1595532814334616368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5226b97cd629d40bc49d805dec9f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &808622192401671540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2097750802838685252, guid: ea97bcc00f353344fa12391f3e5395fd, type: 3}
@@ -14472,7 +14552,15 @@ PrefabInstance:
     - target: {fileID: 1235007624583701319, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2832346822738421449}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235007624583701319, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235007624583701319, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2572744587197178541, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -14521,10 +14609,73 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shop Table Potion M
       objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: json
+      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-14.0999756,"yPos":279},"ID":2,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[1,1],"SpeechUID":4},{"EditorInfo":{"isRoot":false,"xPos":200.900024,"yPos":281},"ID":3,"TMPFontGUID":null,"Text":"No","parentUIDs":[1,1],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":70.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"A
+        flask of goo...Kind of gross","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":66.9000244,"yPos":141},"ID":1,"TMPFontGUID":null,"Text":"It
+        wil cost you 10 coins. Do you want to buy it?","parentUIDs":[0,0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[2,3],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-10.0999756,"yPos":361},"ID":4,"TMPFontGUID":null,"Text":"Uhmm
+        let''s see...","parentUIDs":[2,2],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0.5,"Volume":0}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CashyScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1449196443570569575}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ShopTableScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361041719748182089, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4687152515112684613, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
       propertyPath: cashy
       value: 
-      objectReference: {fileID: 2832346822738421449}
+      objectReference: {fileID: 7807672348406309620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
 --- !u!4 &8549153218014490511 stripped
@@ -14532,6 +14683,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2572744587197178541, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
   m_PrefabInstance: {fileID: 6129548747825630498}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449196443570569575 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4687152515112684613, guid: ca7fce1864d4af54ea7f0c58f5486eaa, type: 3}
+  m_PrefabInstance: {fileID: 6129548747825630498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5226b97cd629d40bc49d805dec9f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6650941838825366054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14589,9 +14751,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8668618452488847491, guid: 280438ad0c5193d4598b4cc4fdacf856, type: 3}
       propertyPath: json
-      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-102.5,"yPos":229},"ID":1,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[0,5,5],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":127.5,"yPos":233},"ID":2,"TMPFontGUID":null,"Text":"No","parentUIDs":[0,5,5],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":18.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"Hello
-        my friend.. Wuff!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":5,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-11.5,"yPos":326},"ID":3,"TMPFontGUID":null,"Text":"Pick
-        your choice...","parentUIDs":[1,1],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":[],"SpeechUID":4,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-10,"yPos":444},"ID":4,"TMPFontGUID":null,"Text":"Arf!","parentUIDs":[3,3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":13,"yPos":130},"ID":5,"TMPFontGUID":null,"Text":"Do
+      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":86.5,"yPos":265},"ID":1,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[0,5,5],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":316.5,"yPos":269},"ID":2,"TMPFontGUID":null,"Text":"No","parentUIDs":[0,5,5],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":207.5,"yPos":58},"ID":0,"TMPFontGUID":null,"Text":"Hello
+        my friend.. Wuff!","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":5,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":177.5,"yPos":362},"ID":3,"TMPFontGUID":null,"Text":"Pick
+        your choice...","parentUIDs":[1,1],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":4,"TimeUntilAdvance":0.5,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":179,"yPos":480},"ID":4,"TMPFontGUID":null,"Text":"Arf!","parentUIDs":[3,3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":202,"yPos":166},"ID":5,"TMPFontGUID":null,"Text":"Do
         you want to buy something?","parentUIDs":[0,0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[1,2],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0}]}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14611,7 +14773,14 @@ PrefabInstance:
     - target: {fileID: 2583914311516685996, guid: c62340295e268eb43b297b30af7e4af7, type: 3}
       propertyPath: cashy
       value: 
-      objectReference: {fileID: 2832346822738421449}
+      objectReference: {fileID: 7807672348406309620}
+    - target: {fileID: 4340059665646476885, guid: c62340295e268eb43b297b30af7e4af7, type: 3}
+      propertyPath: json
+      value: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-63.0999756,"yPos":279},"ID":2,"TMPFontGUID":null,"Text":"Yes","parentUIDs":[1,1],"SpeechUID":4},{"EditorInfo":{"isRoot":false,"xPos":151.900024,"yPos":281},"ID":3,"TMPFontGUID":null,"Text":"No","parentUIDs":[1,1],"SpeechUID":-1}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":21.5,"yPos":22},"ID":0,"TMPFontGUID":null,"Text":"A
+        huge amount of goo!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":17.9000244,"yPos":141},"ID":1,"TMPFontGUID":null,"Text":"It
+        wil cost you 15 coins. Do you want to buy it?","parentUIDs":[0,0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[2,3],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-59.0999756,"yPos":361},"ID":4,"TMPFontGUID":null,"Text":"Uhmm
+        let''s see...","parentUIDs":[2,2],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Drogo","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0.5,"Volume":0}]}'
+      objectReference: {fileID: 0}
     - target: {fileID: 7109808402460163222, guid: c62340295e268eb43b297b30af7e4af7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7

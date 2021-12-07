@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[System.Serializable]
 public class LevelMap : MonoBehaviour
 {
-    public static List<DictionaryEntry> levelMap = new List<DictionaryEntry>();
+    public static List<GameObject> levelMap = new List<GameObject>();
     public static int numberOfShops=1;
-    public static bool AddRoom(string k, GameObject v)
+    
+    public static bool AddRoom(GameObject newRoom)
     {
-        if (v.name.Contains("ShopRoom"))
+        if (newRoom.name.Contains("ShopRoom"))
         {
             if (numberOfShops > 0)
             {
@@ -17,33 +19,32 @@ public class LevelMap : MonoBehaviour
             }
             else
             {
-                Destroy(v);
+                GameObject.Destroy(newRoom);
                 return false;
             }
         }
 
-        //GameObject lastRoom = (GameObject) levelMap.Last<DictionaryEntry>().Value;
-        foreach(DictionaryEntry de in levelMap)
+        foreach(GameObject room in levelMap)
         {
-            if (((GameObject)de.Value).transform.position == v.transform.position)
+            if (room.transform.position == newRoom.transform.position)
             {
-                Destroy(v);
+                GameObject.Destroy(newRoom);
                 return true;
             }
         }
-        DictionaryEntry newEntry = new DictionaryEntry(k, v);
-        levelMap.Add(newEntry);
+        levelMap.Add(newRoom);
+
         return true;
     }
 
     public static void ResetMap()
     {
-        levelMap = new List<DictionaryEntry>();
+        levelMap = new List<GameObject>();
     }
-
 
     public static GameObject GetLastRoom()
     {
-        return (GameObject)levelMap.Last<DictionaryEntry>().Value;
+        return levelMap.Last<GameObject>();
     }
+
 }

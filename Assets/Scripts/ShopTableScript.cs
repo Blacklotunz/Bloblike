@@ -6,8 +6,7 @@ using DialogueEditor;
 public class ShopTableScript : MonoBehaviour
 {
     public int cost;
-    public GameObject sellingItem;
-    public CashyScript cashy;
+    public GameObject sellingItem, cashy;
     private Transform playerPosition;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,17 +18,27 @@ public class ShopTableScript : MonoBehaviour
             playerPosition = collision.transform;
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            //Close confirm dialog
+            ConversationManager.Instance.EndConversation();
+        }
+    }
+
     public void Buy()
     {
         if (int.Parse(CoinText.coinCounter.text) >= cost)
         {
-            cashy.getMoney(true);
+            cashy.SendMessage("getMoney", true);
             GameEvents.current.PlayerBuyItem(cost);
             Instantiate(sellingItem, playerPosition.position, Quaternion.identity);
         }
         else
         {
-            cashy.getMoney(false);
+            cashy.SendMessage("getMoney", false);
         }
     }
 }

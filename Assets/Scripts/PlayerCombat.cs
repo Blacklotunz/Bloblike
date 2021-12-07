@@ -5,21 +5,27 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     public GameObject[] healthCounters;
+    public Weapon weapon;
     public Transform attackPos;
     public Animator animator;
     //public Vector3 attackPosition;
     public LayerMask Damageble;
     public int dmg, health;
-    public float xRange, yRange, timeBetweenAtk, playerAtkOffset;
+    public float xRange, yRange, timeBetweenAtk, playerAtkOffset, atkSpeed;
     public bool dead;
+
+    public float debugAnimatorSpeed;
     
     private CameraControl cameraControl;
     private float atkCooldown;
     
     void Start()
     {
+        weapon = GetComponentInChildren<Weapon>();
         animator = GetComponent<Animator>();
-        atkCooldown = 0f;
+        atkCooldown = 0;
+        timeBetweenAtk = weapon.cooldown;
+        atkSpeed = weapon.speed;
         cameraControl = this.GetComponent<CameraControl>();
         dead = false;
 
@@ -46,23 +52,30 @@ public class PlayerCombat : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.D))
             {
                 Attack(1); //atk right
+                weapon.Hit(transform.right);
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
                 Attack(2); //atk down
+                weapon.Hit(transform.up * -1f);
             }
             if (Input.GetKeyDown(KeyCode.A))
             {
                 Attack(3); //atk left
+                weapon.Hit(transform.right * -1f);
             }
             if (Input.GetKeyDown(KeyCode.W))
             {
                 Attack(4); //atk up
+                weapon.Hit(transform.up);
             }
         }
         else
         {
-            atkCooldown -= Time.deltaTime;
+            if(atkCooldown > 0)
+            {
+                atkCooldown -= Time.deltaTime;
+            }
             animator.SetInteger("attackDirection", 0);
         } 
     }
@@ -80,6 +93,8 @@ public class PlayerCombat : MonoBehaviour
     {
         //play animation
         atkCooldown = timeBetweenAtk;
+        animator.speed = atkSpeed;
+        debugAnimatorSpeed = animator.speed;
         animator.SetInteger("attackDirection", attackDirection);
     }
 

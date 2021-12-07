@@ -16,7 +16,6 @@ public class RoomSpawner : MonoBehaviour
     public float spawnOffsetX, spawnOffsetY;
     public GameObject replacementWall;
 
-    // Start is called before the first frame update
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("RoomsTemplate").GetComponent<RoomTemplates>();
@@ -55,7 +54,7 @@ public class RoomSpawner : MonoBehaviour
                     nextRoom = Instantiate(templates.TRooms[rand], transform.position + new Vector3(spawnOffsetX, spawnOffsetY, 0f), Quaternion.identity);
                     break;
             }
-            roomAdded = LevelMap.AddRoom(nextRoom.name, nextRoom);
+            roomAdded = LevelMap.AddRoom(nextRoom);
         }      
     }
 
@@ -63,18 +62,18 @@ public class RoomSpawner : MonoBehaviour
     {
         //remove unused doors from this room
         Quaternion rotation = GetTileRotation();
-        GameObject newObject;
+        GameObject wallDoor;
         if (replacementWall != null)
         {
-            newObject = Instantiate(replacementWall, transform.parent.transform.position, rotation);
+            wallDoor = Instantiate(replacementWall, transform.parent.transform.position, rotation);
         }
         else
         {
             //spawn Wall tile to parent.transform.position
             LevelTemplate lt = FindObjectOfType<LevelTemplate>();
-            newObject = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
+            wallDoor = Instantiate(lt.LevelWalls[Random.Range(0, lt.LevelWalls.Length)], transform.parent.transform.position, rotation);
         }
-        newObject.transform.parent = transform.parent.parent;
+        wallDoor.transform.parent = transform.parent.parent;
         Destroy(transform.parent.gameObject);
     }
 
